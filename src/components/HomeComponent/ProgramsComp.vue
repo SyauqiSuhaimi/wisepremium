@@ -1,15 +1,53 @@
 <template>
   <section>
-  <div class="content_section">
-    <h3>Lifestyle</h3>
-    <p>Wise Premium offers access to exclusive deals, discounts and luxury lifestyle. From fine dining to luxury yacht and more, Wise Premium members enjoy personalized access to travel deals that fit their interest.</p>
-    <h3>Concierge</h3>
-    <p>With our concierge service, you’ll always have a virtual personal assistant by your side taking care of all your arrangements, from making reservations to booking your next trip. We save your time and let you enjoy a smooth life.</p>
-    <h3>Networking session</h3>
-    <p>Join us for an opportunity to meet other members and expand your network to enhance and strengthen your business connections.</p>
-    <h3>Affiliate programs</h3>
-    <p>You can enjoy exclusive deals and offers from our partners when you shop at their store. Take advantage of these amazing offers, which are just for you!</p>    
-  </div>
+    <div class="bg_section">
+      <div class="content_section">
+        <div class="row my-5">
+          <div class="col-lg-6 px-0 image_Place">
+            <div class="imageContainer1"></div>
+          </div>
+          <div class="col-lg-6 text-justify programs_content d-flex align-items-center px-4">
+            <div>
+              <h3 class="smallTitle">{{ $t('programs.content1.title') }}</h3>
+              <p>{{ $t('programs.content1.desc') }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-6 programs_content d-flex align-items-center px-4 " style="direction:rtl;">
+          <div>
+            <h3 class="smallTitle">{{ $t('programs.content2.title') }}</h3>
+            <p>{{ $t('programs.content2.desc') }}</p>
+          </div>
+          </div>
+          <div class="col-lg-6 px-0 image_Place">
+            <div class="imageContainer2"></div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-6 px-0 image_Place">
+            <div class="imageContainer3"></div>
+          </div>
+          <div class="col-lg-6 text-justify programs_content d-flex align-items-center px-4">
+            <div>
+              <h3 class="smallTitle">{{ $t('programs.content3.title') }}</h3>
+              <p>{{ $t('programs.content3.desc') }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-6 programs_content d-flex align-items-center px-4" style="direction:rtl;">
+          <div>
+            <h3 class="smallTitle">{{ $t('programs.content4.title') }}</h3>
+            <p>{{ $t('programs.content4.desc') }}</p>
+          </div>
+          </div>
+          <div class="col-lg-6 px-0 image_Place">
+            <div class="imageContainer4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 </section>
 </template>
 
@@ -21,5 +59,59 @@ export default {
 </script>
 
 <style>
+
+
+.program_section .bg_section{
+  background-color: #212121;
+  color: white;
+  padding: 10px 0;
+}
+.program_section .content_section{
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+/* .image_Place{
+  padding: 0;
+} */
+
+.programs_content{
+  padding: 20px;
+  text-align: justify;
+}
+
+/* .programs_title{
+  color: #F4DCBC
+} */
+
+.imageContainer1{
+  width:100%;
+  height:270px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../assets/homeAssets/content1.jpg);
+}
+.imageContainer2{
+  width:100%;
+  height:270px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../assets/homeAssets/content2.jpg);
+}
+.imageContainer3{
+  width:100%;
+  height:270px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../assets/homeAssets/content3.jpg);
+}
+.imageContainer4{
+  width:100%;
+  height:270px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../assets/homeAssets/content4.jpg);
+}
+
 
 </style>

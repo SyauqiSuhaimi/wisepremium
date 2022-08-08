@@ -23,7 +23,7 @@ export default createI18n({
   legacy: false,
   // locale: process.env.VUE_APP_I18N_LOCALE || 'fr',
   // fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',
-  locale:'fr',
+  locale:'en',
   fallbackLocale:'en',
   messages: loadLocaleMessages()
 })

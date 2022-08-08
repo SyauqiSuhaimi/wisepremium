@@ -1,10 +1,10 @@
 <template>
 <section>
-  <div class="content_section">
-    <h1 class="bigTitle">{{ $t('aboutUs.title') }}</h1>
-    <p>{{ $t('aboutUs.desc1') }}</p>
-    <p class="text-end">{{ $t('aboutUs.desc2') }}</p>
-  </div>
+    <div class="bg_section">
+        <div class="content_section">
+            Footer
+        </div>
+    </div>
 </section>
 </template>
 

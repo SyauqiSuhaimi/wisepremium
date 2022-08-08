@@ -1,3 +1,69 @@
 {
-  "message": "hello i18n !!"
+  "aboutUs" : {
+    
+    "title": "Exclusive Lifestyle Club",
+    "desc1": "Wise Premium allows you access to the World of Privileged, explore the infinite possibilities and indulge a plush lifestyle which only the elite have access to. Seize powerful financial analysis opportunities with Wise Premium valued programs.",
+    "desc2": "Let your world unfold"
+
+  },
+  
+  "programs" : {
+
+    "content1" : {
+      
+      "title" : "Lifestyle",
+      "desc" : "Wise Premium offers access to exclusive deals, discounts and luxury lifestyle. From fine dining to luxury yacht and more, Wise Premium members enjoy personalized access to travel deals that fit their interest."
+    },
+    "content2" : {
+      
+      "title" : "Concierge",
+      "desc" : "With our concierge service, you’ll always have a virtual personal assistant by your side taking care of all your arrangements, from making reservations to booking your next trip. We save your time and let you enjoy a smooth life."
+    },
+    "content3" : {
+      
+      "title" : "Networking session",
+      "desc" : "Join us for an opportunity to meet other members and expand your network to enhance and strengthen your business connections."
+    },
+    "content4" : {
+      
+      "title" : "Affiliate programs",
+      "desc" : "You can enjoy exclusive deals and offers from our partners when you shop at their store. Take advantage of these amazing offers, which are just for you!"
+    }
+  },
+
+  "lifestyle" : {
+    
+    "title": "Wise Premium Lifestyle",
+    "desc": "Wise Premium is a community of exclusive and luxury lovers who want more for their lifestyle. We introduce you to an exclusive world you’ve always dreamed of. We offer insider access to the most sought after travel events, entertainment and financial insights"
+
+  },
+
+  "chooseUs" : {
+    "title" : "Why Choose Us?",
+
+    "content1" : {
+      "title" : "Fast & easy",
+      "desc" : "Just download the Wise Premium mobile app, register and you are good to go. Secure and convenient."
+    },
+    "content2" : {
+      "title" : "100% transparent",
+      "desc" : "Easily access and manage all your accounts balance, transactions and card details in one place, on one mobile platform."
+    },
+    "content3" : {
+      "title" : "Discount on travel",
+      "desc" : "Save precious time and money while making all your travel arrangements with Wise Premium virtual assistant."
+    },
+    "content4" : {
+      "title" : "Competitive exchange rates",
+      "desc" : "We offer a competitive exchange rates for your purchase our club credits."
+    },
+    "content5" : {
+      "title" : "24/7 support",
+      "desc" : "Our 24/7 support team provides immediate assistance with all issues or questions. We are always here to help!"
+    },
+    "content6" : {
+      "title" : "Use with ease",
+      "desc" : "You can seamlessly spend your club credit with Wise Premium card."
+    }
+  }
 }
