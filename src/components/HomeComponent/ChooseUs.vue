@@ -84,13 +84,13 @@ export default {
 
 <style>
 
-.why_section .content_section{
+/* .why_section .content_section{
     max-width: 1050px;
     margin: 50px auto;
-}
+} */
 
 .chooseTitle{
-    color: #CD9F7A;
+    color: var(--thirdcolor);
     font-size: 20px;
     margin-bottom: 0;
 }

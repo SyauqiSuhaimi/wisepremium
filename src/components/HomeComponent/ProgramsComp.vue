@@ -66,10 +66,11 @@ export default {
   color: white;
   padding: 10px 0;
 }
-.program_section .content_section{
+
+/* .program_section .content_section{
   max-width: 1050px;
   margin: 0 auto;
-}
+} */
 
 /* .image_Place{
   padding: 0;

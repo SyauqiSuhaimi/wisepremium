@@ -31,6 +31,41 @@
     }
   },
 
+  "cards": {
+    "title" : "Discover More",
+    "desc" : "Become our member and enjoy the features",
+    
+    "cardDetails1" : {
+      "title" : "Standard",
+      "registrationFee" : "Registration Fee: Free",
+      "monthlySub" : "Monthly Subscription: $5.00",
+      "accountLimit": "Account Limit 50,000 credits"
+    },
+
+    "cardDetails2" : {
+      "title" : "Premium",
+      "registrationFee" : "Registration Fee: $600.00",
+      "monthlySub" : "Monthly Subscription: $20.00",
+      "accountLimit": "Account Limit 150,000 credits"
+    },
+
+    "cardDetails3" : {
+      "title" : "VIP",
+      "registrationFee" : "Registration Fee: $1,000.00",
+      "monthlySub" : "Monthly Subscription: $50.00",
+      "accountLimit": "Account Limit 300,000 credits"
+    },
+
+    "cardFtr1" : "Standard Wise Premium Card",
+    "cardFtr2" : "1% Quick wallet to wallet transfer",
+    "cardFtr3" : "8% exchange fee",
+    "cardFtr4" : "3% concierge service fee",
+    "cardFtr5" : "Up to 30% off concierge services",
+    "cardFtr6" : "24/7 Virtual Assistant",
+    "cardFtr7" : "Reward points"
+
+  },
+
   "lifestyle" : {
     
     "title": "Wise Premium Lifestyle",
@@ -65,5 +100,21 @@
       "title" : "Use with ease",
       "desc" : "You can seamlessly spend your club credit with Wise Premium card."
     }
+  },
+  
+  "footer":{
+
+    "links" : {
+      "memberships" : "Memberships",
+      "concierge" : "Concierge",
+      "faq" : "FAQ",
+      "contactUs" : "Contact Us"
+    },
+
+    "privacyPolicy": "Privacy Policy",
+    "termsCondition": "Terms & Conditions",
+    "copyright": "© Copyright 2022, Wise Premium"
   }
+
+  
 }
