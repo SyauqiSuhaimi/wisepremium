@@ -20,6 +20,7 @@ import Header from '@/components/Header.vue'
   --primecolor:   #F4DCBC;
   --secondcolor:  #EFBC7B;
   --thirdcolor:  #CD9F7A;
+  --bgcolor:  black;
 }
 
 #app {

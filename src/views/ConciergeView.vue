@@ -1,6 +1,13 @@
+<script setup>
+import aboutConcierge from '@/components/ConciergeComponent/aboutConcierge.vue'
+import programConcierge from '@/components/ConciergeComponent/programConcierge.vue'
+
+</script>
+
 <template>
   <main>
-    <h1>This is concierge</h1>
+    <section class="aboutConcierge_section"><aboutConcierge /></section>
+    <section class="programConcierge_section"><programConcierge /></section>
   </main>
 </template>
 

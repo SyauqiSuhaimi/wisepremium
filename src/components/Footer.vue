@@ -9,10 +9,10 @@
             </div>
             <div class="row link_section">
                 <div class="col">
-                    <a href="#" class="footerLink">{{ $t('footer.links.memberships') }}</a>
+                    <a href="/" class="footerLink">{{ $t('footer.links.memberships') }}</a>
                 </div>
                 <div class="col">
-                    <a href="#" class="footerLink">{{ $t('footer.links.concierge') }}</a>
+                    <a href="/concierge" class="footerLink">{{ $t('footer.links.concierge') }}</a>
                 </div>
                 <div class="col">
                     <a href="#" class="footerLink">{{ $t('footer.links.valueProg') }}</a>
@@ -60,7 +60,7 @@ export default {
 <style>
 
 .footer_section .bg_section{
-    background-color: black;
+    background-color: var(--bgcolor);
     color: white;
 }
 

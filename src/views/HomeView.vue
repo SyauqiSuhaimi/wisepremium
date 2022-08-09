@@ -22,7 +22,7 @@ import ChooseUs from '@/components/HomeComponent/ChooseUs.vue'
 <style>
 
 .bigTitle {
-  color: var(--primecolor);
+  color: var(--secondcolor);
 }
 
 .smallTitle {

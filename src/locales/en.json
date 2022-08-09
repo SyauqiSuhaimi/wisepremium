@@ -115,7 +115,52 @@
     "privacyPolicy": "Privacy Policy",
     "termsCondition": "Terms & Conditions",
     "copyright": "© Copyright 2022, Wise Premium"
+  },
+
+  "concierge" : {
+
+    "about" : {
+
+      "title" : "Why Wise Premium Concierge?"
+    },
+
+    "features1" : {
+      "title" : "24/7 support",
+      "desc" : "We provide you with 24/7 access to our professional and dedicated concierge team. Whether it’s a restaurant reservation or planning an excursion, we’re here to help you make your travel easy."
+    },
+
+    "features2" : {
+      "title" : "Convenience & save time",
+      "desc" : "We’re the experts in what’s happening in the city and we know what makes a memorable experience. We can help you get access to events, restaurants and venues that are off the beaten track."
+    },
+
+    "features3" : {
+      "title" : "Exclusive offers",
+      "desc" : "You will benefit from exceptional rates and VIP attention, for multiple products and services, from our network of exclusive partners. That means you can enjoy great value on your leisure activities at the best of times."
+    },
+
+    "programs1" : {
+      "title":"Luxury Travel",
+      "desc": "Imagine having your own yacht or VIP cars at your fingertips to go wherever you want whenever you want. This is exactly what we offer to our members: exclusive access to a fleet of fine vehicles and yachts for you and your guests no matter where in the world you are. This can all be yours with our VIP services."
+    },
+
+    "programs2" : {
+      "title":"Luxury Vacation",
+      "desc": "Booking your luxury vacations should be of great importance, especially when it comes to planning your itinerary and choosing the right holiday destinations. Our team of experts and advisors are always ready to assist you in planning the best getaways for you."
+    },
+
+    "programs3" : {
+      "title":"VIP Dining",
+      "desc": "With our bespoke booking service, it’s easy to ensure you and your guests secure the best views and seats in town without queuing for hours. We know the restaurant scene inside out, so we are uniquely placed to suggest the best restaurants for your requirements and make the reservation for you."
+    },
+
+    "programs4" : {
+      "title":"Private / Corporate Event",
+      "desc": "Our planning and event management services are available for both private clients and corporate customers. We help you with the entire process, from sourcing venues to organizing catering. Our in-house designers offer a variety of designs and menus so you always have a personalized experience."
+    }
   }
+
+  
 
   
 }

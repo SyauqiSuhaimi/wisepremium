@@ -62,7 +62,7 @@ export default {
 
 
 .program_section .bg_section{
-  background-color: #212121;
+  background-color: var(--bgcolor);
   color: white;
   padding: 10px 0;
 }
