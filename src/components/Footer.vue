@@ -1,28 +1,30 @@
 <template>
 <section>
-    <div class="bg_section pt-4">
+    <div class="bg_section pt-4 pb-2">
         <div class="content_section">
             <div class="row">
                 <div class="col">
                     <img src="../assets/wpLogo.png" width="200" alt="">
                 </div>
             </div>
-            <div class="row link_section">
-                <div class="col">
-                    <a href="/" class="footerLink">{{ $t('footer.links.memberships') }}</a>
+            <div class="row link_section px-1">
+                <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
+                    <a href="/" class="footerLink"><p>{{ $t('footer.links.memberships') }}</p></a>
                 </div>
-                <div class="col">
-                    <a href="/concierge" class="footerLink">{{ $t('footer.links.concierge') }}</a>
+                <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
+                    <a href="/concierge" class="footerLink"><p>{{ $t('footer.links.concierge') }}</p></a>
                 </div>
-                <div class="col">
-                    <a href="#" class="footerLink">{{ $t('footer.links.valueProg') }}</a>
+                <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
+                    <a href="#" class="footerLink"><p>{{ $t('footer.links.valueProg') }}</p></a>
                 </div>
-                <div class="col">
-                    <a href="#" class="footerLink">{{ $t('footer.links.faq') }}</a>
+                <div class="col-3 d-lg-none"></div>
+                <div class="col px-0 d-flex align-items-center justify-content-center">
+                    <a href="#" class="footerLink"><p>{{ $t('footer.links.faq') }}</p></a>
                 </div>
-                <div class="col">
-                    <a href="#" class="footerLink">{{ $t('footer.links.contactUs') }}</a>
+                <div class="col px-0 d-flex align-items-center justify-content-center">
+                    <a href="#" class="footerLink"><p>{{ $t('footer.links.contactUs') }}</p></a>
                 </div>
+                <div class="col-3 d-lg-none"></div>
             </div>
             <div class="row icon_section">
                 <div class="col">
@@ -39,11 +41,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 text-start">
-                    {{ $t('footer.privacyPolicy') }} | {{ $t('footer.termsCondition') }}
+                <div class="col-12 col-lg-6 text-lg-start mt-4 mt-lg-0">
+                    <a href="#" class="footerLink2">{{ $t('footer.privacyPolicy') }}</a> | <a href="#" class="footerLink2">{{ $t('footer.termsCondition') }}</a>
                 </div>
-                <div class="col-lg-6 text-end">
-                    <p>{{ $t('footer.copyright') }}</p>
+                <div class="col-12 col-lg-6 text-lg-end mt-2 mt-lg-0 copyRight">
+                    {{ $t('footer.copyright') }}
                 </div>
             </div>
         </div>
@@ -83,6 +85,25 @@ export default {
 
 .footerLink:hover {
     color: white;
+}
+
+.footerLink2 {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 575.98px){
+  
+.footer_section .link_section{
+    margin: 20px auto;
+}
+
+.footerLink , .footerLink2, .copyRight{
+    font-size: 14px;
+}
+
 }
 
 </style>

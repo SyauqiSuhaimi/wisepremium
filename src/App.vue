@@ -32,9 +32,19 @@ import Header from '@/components/Header.vue'
   /* color: #2c3e50; */
 }
 
+
 p {
   font-size: 18px;
 }
+
+@media (max-width: 575.98px){
+  
+p {
+  font-size: 16px;
+}
+}
+
+
 
 /* nav {
   padding: 30px;

@@ -34,4 +34,14 @@ import ChooseUs from '@/components/HomeComponent/ChooseUs.vue'
     margin: 50px auto;
 }
 
+
+@media (max-width: 575.98px){
+  
+.why_section .content_section{
+    margin: 30px auto;
+}
+}
+
+
+
 </style>

@@ -47,13 +47,13 @@
                 <button class="button-34" role="button">Sign Up Now</button>
             </div>
         </div>
-        <div class="col-lg-4 cardContainer  py-3 pyb-5">
+        <div class="col-lg-4 cardContainer py-3 pyb-5">
             <div class="col-12"><img src="../../assets/homeAssets/Gold-card.png" width="320" alt=""></div>
             <div class="col-12 cardTitle"><h4>{{ $t('cards.cardDetails3.title') }}</h4></div>
             <div class="col-12"><strong><p>{{ $t('cards.cardDetails3.registrationFee') }}</p></strong></div>
             <div class="col-12"><p>{{ $t('cards.cardDetails3.monthlySub') }}</p></div>
-            <hr class="cardLine">
             <div class="col-12 text-start cardDesc">
+                <hr class="cardLine">
                 <ul>
                     <li><p>{{ $t('cards.cardFtr1') }}</p></li>
                     <li><p>{{ $t('cards.cardDetails1.accountLimit') }}</p></li>

@@ -24,6 +24,7 @@ export default {
   background-size:100%;
   color: white;
   height: 600px;
+  background-repeat: no-repeat;
 }
 
 .lifestyle_section .bg2_section{
@@ -34,6 +35,21 @@ export default {
 .lifestyle_section .content_section{
   max-width: 500px;
   margin: 0 auto;
+}
+
+@media (max-width: 575.98px){
+  
+.lifestyle_section .bg_section{
+  background-image: url(../../assets/homeAssets/background2.jpg);
+  background-size:100% 100%;
+  color: white;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+.lifestyle_section .bg2_section{
+  padding:50px 10px;
+}
 }
 
 </style>
