@@ -2,9 +2,9 @@
   <section>
     <div class="bg_section">
       <div class="content_section">
-        <div class="row my-5">
+        <div class="row mb-5">
           <div class="col-lg-6 px-0 image_Place">
-            <div class="imageContainer1"></div>
+            <div class="imageContainer"><img src="../../assets/homeAssets/content1.jpg" alt="img" style="width:100%"></div>
           </div>
           <div class="col-lg-6 text-justify programs_content d-flex align-items-center px-4">
             <div>
@@ -21,12 +21,12 @@
           </div>
           </div>
           <div class="col-lg-6 px-0 image_Place">
-            <div class="imageContainer2"></div>
+            <div class="imageContainer"><img src="../../assets/homeAssets/content2.jpg" alt="img" style="width:100%"></div>
           </div>
         </div>
         <div class="row my-5">
           <div class="col-lg-6 px-0 image_Place">
-            <div class="imageContainer3"></div>
+            <div class="imageContainer"><img src="../../assets/homeAssets/content3.jpg" alt="img" style="width:100%"></div>
           </div>
           <div class="col-lg-6 text-justify programs_content d-flex align-items-center px-4">
             <div>
@@ -43,7 +43,7 @@
           </div>
           </div>
           <div class="col-lg-6 px-0 image_Place">
-            <div class="imageContainer4"></div>
+            <div class="imageContainer"><img src="../../assets/homeAssets/content4.jpg" alt="img" style="width:100%"></div>
           </div>
         </div>
       </div>
@@ -85,34 +85,39 @@ export default {
   color: #F4DCBC
 } */
 
+.imageContainer{
+  width:100%;
+  max-height:270px;
+}
+
 .imageContainer1{
   width:100%;
-  height:270px;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../../assets/homeAssets/content1.jpg);
+  max-height:270px;
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-image: url(../../assets/homeAssets/content1.jpg); */
 }
-.imageContainer2{
+/* .imageContainer2{
   width:100%;
   height:270px;
   background-position: center;
   background-size: cover;
   background-image: url(../../assets/homeAssets/content2.jpg);
-}
-.imageContainer3{
+} */
+/* .imageContainer3{
   width:100%;
   height:270px;
   background-position: center;
   background-size: cover;
   background-image: url(../../assets/homeAssets/content3.jpg);
-}
-.imageContainer4{
+} */
+/* .imageContainer4{
   width:100%;
   height:270px;
   background-position: center;
   background-size: cover;
   background-image: url(../../assets/homeAssets/content4.jpg);
-}
+} */
 
 
 </style>

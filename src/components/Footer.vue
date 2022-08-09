@@ -15,6 +15,9 @@
                     <a href="#" class="footerLink">{{ $t('footer.links.concierge') }}</a>
                 </div>
                 <div class="col">
+                    <a href="#" class="footerLink">{{ $t('footer.links.valueProg') }}</a>
+                </div>
+                <div class="col">
                     <a href="#" class="footerLink">{{ $t('footer.links.faq') }}</a>
                 </div>
                 <div class="col">
