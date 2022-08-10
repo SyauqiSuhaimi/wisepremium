@@ -21,7 +21,7 @@
           <a class="nav-link active" href="/valueProg">{{ $t('footer.links.valueProg') }}</a>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link active" href="#">{{ $t('footer.links.contactUs') }}</a>
+          <a class="nav-link active" href="/contactUs">{{ $t('footer.links.contactUs') }}</a>
         </li>
         <!-- <li class="nav-item mx-2">
           <select v-model="$i18n.locale">

@@ -33,7 +33,7 @@
         </div>
     </div>
     <div class="mt-5">
-        <button class="button-34" role="button">{{ $t('concierge.button') }}</button>
+        <a href="/contactUs" class="button-34">{{ $t('concierge.button') }}</a>
     </div>
   </div>
 </template>

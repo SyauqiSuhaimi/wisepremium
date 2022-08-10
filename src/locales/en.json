@@ -34,6 +34,7 @@
   "cards": {
     "title" : "Discover More",
     "desc" : "Become our member and enjoy the features",
+    "button" : "Sign Up Now",
     
     "cardDetails1" : {
       "title" : "Standard",
@@ -207,7 +208,28 @@
     "contact" : "Contact Number",
     "message" : "Message *",
     "button" : "Submit"
+  },
+
+  "faq": {
+
+    "title":"Here are some of the frequently asked question",
+
+    "qs1" : "How do I become Wise Premium member?",
+    "ans1" : "To become a Wise Premium member, you need to open an account. The process is very quick and easy. You can download the app from App or Play Stores to register.",
+
+    "qs2" : "How do I change or update the information registered in my account?",
+    "ans2" : "You can update your email address and phone number in the account yourself. If you need to amend other personal details,  including your residential address, you will need to contact our Customer Support team who will take you through the process. You can contact the customer support team in the form above or email them at info[at]wisepremium.com.",
+    
+    "qs3" : "How does the concierge service work?",
+    "ans3" : "As a concierge and lifestyle management service, we want to make your life run effortlessly. We use our in-depth knowledge, experience and contacts to source the best products and services for you. We can save you time money and frustration by helping you plan, design or organise virtually any event or activity.",
+    
+    "qs4" : "How can do I make a request for concierge service?",
+    "ans4" : "Simply contact our concierge through the Wise Premium app where you can send a request directly to the team. Alternatively, you can email your request to info[at]wisepremium.com."
+
+
   }
+
+  
 
   
 }

@@ -23,7 +23,7 @@
                     <li><p>{{ $t('cards.cardFtr7') }}</p></li>
                 </ul></div>
             <div class="col-12">
-                <button class="button-34" role="button">Sign Up Now</button>
+                <a href="/contactUs" class="button-34">{{ $t('cards.button') }}</a>
             </div>
         </div>
         <div class="col-lg-4 cardContainer py-3 pyb-5">
@@ -44,7 +44,7 @@
                     <li><p>{{ $t('cards.cardFtr7') }}</p></li>
                 </ul></div>
             <div class="col-12">
-                <button class="button-34" role="button">Sign Up Now</button>
+                <a href="/contactUs" class="button-34">{{ $t('cards.button') }}</a>
             </div>
         </div>
         <div class="col-lg-4 cardContainer py-3 pyb-5">
@@ -65,7 +65,7 @@
                     <li><p>{{ $t('cards.cardFtr7') }}</p></li>
                 </ul></div>
             <div class="col-12">
-                <button class="button-34" role="button">Sign Up Now</button>
+                <a href="/contactUs" class="button-34">{{ $t('cards.button') }}</a>
             </div>
         </div>
     </div>

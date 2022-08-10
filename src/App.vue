@@ -71,6 +71,12 @@ p {
   width: fit-content;
   word-break: break-word;
   border: 0;
+  text-decoration: none;
+}
+
+.button-34:hover{
+  color: white;
+
 }
 
 @media (max-width: 575.98px){

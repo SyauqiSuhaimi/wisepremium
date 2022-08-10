@@ -1,16 +1,42 @@
 <template>
   <div class="bg_section">
-    <div class="content_section">
-        <div>
-            <h2>Here are some of the frequently asked questions</h2>
+    <div class="content_section py-5 px-4">
+        <div class="mb-4">
+            <h2>{{ $t('faq.title') }}</h2>
         </div>
-        <div class="row border faqContainer">
-            <div @click="faq1Active = !faq1Active" class="col-12 border d-flex align-items-center p-3 faqQs">
-                <strong><p>How do I become Wise Premium member?</p></strong>
+        <div class="row faqContainer">
+            <div @click="faq1Active = !faq1Active" :class="{'active' : faq1Active}" class="col-12 border d-flex align-items-center p-3 faqQs">
+                <strong><p>{{ $t('faq.qs1') }}</p></strong>
             </div>
-            <div v-show="faq1Active" class="col-12 border d-flex align-items-center p-3 faqAns">
-                <p>To become a Wise Premium member, you need to open an account. The process is very quick and easy. You can download the app from App or Play Stores to register.</p>
+            <Transition name="slide-fade">
+            <div v-if="faq1Active" class="col-12 d-flex align-items-center p-3 faqAns">
+                <p>{{ $t('faq.ans1') }}</p>
             </div>
+            </Transition>
+            <div @click="faq2Active = !faq2Active" :class="{'active' : faq2Active}" class="col-12 border d-flex align-items-center p-3 faqQs">
+                <strong><p>{{ $t('faq.qs2') }}</p></strong>
+            </div>
+            <Transition name="slide-fade">
+            <div v-if="faq2Active" class="col-12 d-flex align-items-center p-3 faqAns">
+                <p>{{ $t('faq.ans2') }}</p>
+            </div>
+            </Transition>
+            <div @click="faq3Active = !faq3Active" :class="{'active' : faq3Active}" class="col-12 border d-flex align-items-center p-3 faqQs">
+                <strong><p>{{ $t('faq.qs3') }}</p></strong>
+            </div>
+            <Transition name="slide-fade">
+            <div v-if="faq3Active" class="col-12 d-flex align-items-center p-3 faqAns">
+                <p>{{ $t('faq.ans3') }}</p>
+            </div>
+            </Transition>
+            <div @click="faq4Active = !faq4Active" :class="{'active' : faq4Active}" class="col-12 border d-flex align-items-center p-3 faqQs">
+                <strong><p>{{ $t('faq.qs4') }}</p></strong>
+            </div>
+            <Transition name="slide-fade">
+            <div v-if="faq4Active" class="col-12 d-flex align-items-center p-3 faqAns">
+                <p>{{ $t('faq.ans4') }}</p>
+            </div>
+            </Transition>
         </div>
     </div>
   </div>
@@ -22,9 +48,9 @@ export default {
     data() {
       return {
         faq1Active: false,
-        faq1Active2: false,
         faq2Active: false,
         faq3Active: false,
+        faq4Active: false,
       }
     },
 
@@ -32,6 +58,20 @@ export default {
 </script>
 
 <style>
+
+.slide-fade-enter-active {
+  transition: all 0.8s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateY(-20px);
+  opacity: 0;
+}
 
 .faq_section .content_section{
     max-width: 1100px;
@@ -45,6 +85,15 @@ export default {
 .faqContainer p{
     text-align: start;
     margin-bottom: 0;
+}
+
+.faqQs.active{
+    color: var(--thirdcolor);
+}
+
+.faqAns{
+    border-right: 1px solid #DEE2E6;
+    border-left: 1px solid #DEE2E6;
 }
 
 
