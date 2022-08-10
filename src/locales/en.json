@@ -158,9 +158,40 @@
       "title":"Private / Corporate Event",
       "desc": "Our planning and event management services are available for both private clients and corporate customers. We help you with the entire process, from sourcing venues to organizing catering. Our in-house designers offer a variety of designs and menus so you always have a personalized experience."
     }
-  }
+  },
 
-  
+  "valueProg" : {
+
+    "about" : {
+
+      "title" : "Earn Interest on Wise Premium Credits"
+    },
+
+    "features1" : {
+      "title" : "Step 1: Select A Package",
+      "desc" : "Choose the package that fits your risk tolerance and objective."
+    },
+
+    "features2" : {
+      "title" : "Step 2: Deposit WP Credits",
+      "desc" : "Easily transfer your WP credits into the package of your choice"
+    },
+
+    "features3" : {
+      "title" : "Step 3: Gain Returns",
+      "desc" : "The program will start working hard for you!"
+    },
+
+    "programs1" : {
+      "title":"Beat Volatility & Earn Passive Income",
+      "desc": "With Wise Premium, you can put your WP credit to work straight away and have a predictable source of passive income with low risk. <br> <br> Just choose the programs that you are interested to participate, and start earning WP credits immediately – no further action is needed on your side."
+    },
+
+    "programs2" : {
+      "title":"Service for Any Level of Expertise",
+      "desc": "Whether you’re new to investment or have owned it for years, we’re here to help. Our client service managers have the knowledge and expertise to address any question."
+    }
+  }
 
   
 }
