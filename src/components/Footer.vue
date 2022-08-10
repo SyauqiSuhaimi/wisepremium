@@ -19,10 +19,10 @@
                 </div>
                 <div class="col-3 d-lg-none"></div>
                 <div class="col px-0 d-flex align-items-center justify-content-center">
-                    <a href="#" class="footerLink"><p>{{ $t('footer.links.faq') }}</p></a>
+                    <a href="/FAQ" class="footerLink"><p>{{ $t('footer.links.faq') }}</p></a>
                 </div>
                 <div class="col px-0 d-flex align-items-center justify-content-center">
-                    <a href="#" class="footerLink"><p>{{ $t('footer.links.contactUs') }}</p></a>
+                    <a href="/contactUs" class="footerLink"><p>{{ $t('footer.links.contactUs') }}</p></a>
                 </div>
                 <div class="col-3 d-lg-none"></div>
             </div>
@@ -62,7 +62,7 @@ export default {
 <style>
 
 .footer_section .bg_section{
-    background-color: var(--bgcolor);
+    background-color: #212121;
     color: white;
 }
 

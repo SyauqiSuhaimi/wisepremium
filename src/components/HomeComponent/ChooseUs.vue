@@ -89,11 +89,5 @@ export default {
     margin: 50px auto;
 } */
 
-.chooseTitle{
-    color: var(--thirdcolor);
-    font-size: 20px;
-    margin-bottom: 0;
-}
-
 
 </style>

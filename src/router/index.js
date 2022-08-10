@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ConciergeView from '../views/ConciergeView.vue'
 import ValueProgView from '../views/ValueProgView.vue'
+import ContactUsView from '../views/ContactUsView.vue'
+import FAQView from '../views/FAQView.vue'
 
 const routes = [
   {
@@ -27,6 +29,16 @@ const routes = [
     name: 'valueProg',
     component: ValueProgView
   },
+  {
+    path: '/contactUs',
+    name: 'contactUs',
+    component: ContactUsView
+  },
+  {
+    path: '/faq',
+    name: 'faq',
+    component: FAQView
+  }
 ]
 
 const router = createRouter({

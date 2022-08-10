@@ -157,7 +157,9 @@
     "programs4" : {
       "title":"Private / Corporate Event",
       "desc": "Our planning and event management services are available for both private clients and corporate customers. We help you with the entire process, from sourcing venues to organizing catering. Our in-house designers offer a variety of designs and menus so you always have a personalized experience."
-    }
+    },
+
+    "button":"Join Now"
   },
 
   "valueProg" : {
@@ -194,8 +196,17 @@
 
     "choosePlan" : {
       "title" : "Join and earn now",
-      "desc" : "Don’t miss your chance to earn an incredible yield on your WP credits with Wise Premium."
+      "desc" : "Don’t miss your chance to earn an incredible yield on your WP credits with Wise Premium.",
+      "button": "Choose Plan"
     }
+  },
+
+  "contactUs": {
+    "name" : "Full Name *",
+    "email" : "Email Address",
+    "contact" : "Contact Number",
+    "message" : "Message *",
+    "button" : "Submit"
   }
 
   

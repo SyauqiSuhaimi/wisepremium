@@ -200,8 +200,15 @@
       "desc" : "不要错过这个千载难逢的机会利用Wise Premium来赚取更多的积分回酬。",
       "button" : "选择投资方案"
     }
-  }
+  },
 
+  "contactUs": {
+    "name" : "姓名 *",
+    "email" : "电子邮件 *",
+    "contact" : "联系电话 *",
+    "message" : "信息内容 *",
+    "button" : "提交"
+  }
 
   
 }
