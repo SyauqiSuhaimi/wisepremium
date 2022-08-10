@@ -18,7 +18,7 @@
           <a class="nav-link active" href="/concierge">{{ $t('footer.links.concierge') }}</a>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link active" href="/concierge">{{ $t('footer.links.valueProg') }}</a>
+          <a class="nav-link active" href="/valueProg">{{ $t('footer.links.valueProg') }}</a>
         </li>
         <li class="nav-item mx-2">
           <a class="nav-link active" href="#">{{ $t('footer.links.contactUs') }}</a>

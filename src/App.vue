@@ -37,10 +37,52 @@ p {
   font-size: 18px;
 }
 
+.bigTitle {
+  color: var(--secondcolor);
+}
+
+.smallTitle {
+  color: var(--primecolor);
+}
+
+.chooseTitle{
+    color: var(--thirdcolor);
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+
+/* CSS */
+.button-34 {
+  background: var(--thirdcolor);
+  border-radius: 999px;
+  box-shadow: var(--thirdcolor) 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
 @media (max-width: 575.98px){
   
 p {
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.chooseTitle{
+    color: var(--thirdcolor);
+    font-size: 18px;
+    margin-bottom: 0;
 }
 }
 

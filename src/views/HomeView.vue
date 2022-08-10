@@ -21,13 +21,7 @@ import ChooseUs from '@/components/HomeComponent/ChooseUs.vue'
 
 <style>
 
-.bigTitle {
-  color: var(--secondcolor);
-}
 
-.smallTitle {
-  color: var(--primecolor);
-}
 
 .program_section .content_section, .card_section .content_section, .why_section .content_section, .footer_section .content_section{
     max-width: 1100px;

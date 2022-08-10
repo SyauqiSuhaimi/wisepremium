@@ -8,10 +8,10 @@
             <div class="row mt-lg-4 mx-0">
                 <div class="col-lg-4">
                     <div class="row">
-                        <div class="col-lg-2 p-0">
+                        <div class="col-2 p-0">
                             <img src="../../assets/valueProgAssets/icon1.png" width="60" alt="">
                         </div>
-                        <div class="col-lg-10 " style="text-align :justify">
+                        <div class="col-10 " style="text-align :justify">
                             <p class="chooseTitle">{{ $t('valueProg.features1.title') }}</p>
                             <p>{{ $t('valueProg.features1.desc') }}</p>
                         </div>
@@ -19,10 +19,10 @@
                 </div>
                 <div class="col-lg-4 ">
                     <div class="row ">
-                        <div class="col-lg-2 p-0">
+                        <div class="col-2 p-0">
                             <img src="../../assets/valueProgAssets/icon2.png" width="60" alt="">
                         </div>
-                        <div class="col-lg-10 " style="text-align :justify">
+                        <div class="col-10 " style="text-align :justify">
                             <p class="chooseTitle">{{ $t('valueProg.features2.title') }}</p>
                             <p>{{ $t('valueProg.features2.desc') }}</p>
                         </div>
@@ -30,10 +30,10 @@
                 </div>
                 <div class="col-lg-4 ">
                     <div class="row ">
-                        <div class="col-lg-2 p-0">
+                        <div class="col-2 p-0">
                             <img src="../../assets/valueProgAssets/icon3.png" width="60" alt="">
                         </div>
-                        <div class="col-lg-10 " style="text-align :justify">
+                        <div class="col-10 " style="text-align :justify">
                             <p class="chooseTitle">{{ $t('valueProg.features3.title') }}</p>
                             <p>{{ $t('valueProg.features3.desc') }}</p>
                         </div>

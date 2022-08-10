@@ -1,6 +1,6 @@
 <template>
   <div class="content_section">
-        <div class="row">
+        <div class="row mx-0">
             <div class="col-lg-7">
                 <img src="../../assets/valueProgAssets/featur1.jpg" alt="" style="width:100%;">
             </div>
@@ -13,7 +13,7 @@
                 </div>
             </div>
         </div>
-        <div class="row my-4">
+        <div class="row my-4 mx-0">
             <div class="col-lg-5">
                 <div class="col-12 text-start">
                     <h2 class="bigTitle">{{ $t('valueProg.programs2.title') }}</h2>

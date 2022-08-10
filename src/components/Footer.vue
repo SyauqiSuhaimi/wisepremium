@@ -2,7 +2,7 @@
 <section>
     <div class="bg_section pt-4 pb-2">
         <div class="content_section">
-            <div class="row">
+            <div class="row mx-0">
                 <div class="col">
                     <img src="../assets/wpLogo.png" width="200" alt="">
                 </div>
@@ -15,7 +15,7 @@
                     <a href="/concierge" class="footerLink"><p>{{ $t('footer.links.concierge') }}</p></a>
                 </div>
                 <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
-                    <a href="#" class="footerLink"><p>{{ $t('footer.links.valueProg') }}</p></a>
+                    <a href="/valueProg" class="footerLink"><p>{{ $t('footer.links.valueProg') }}</p></a>
                 </div>
                 <div class="col-3 d-lg-none"></div>
                 <div class="col px-0 d-flex align-items-center justify-content-center">
@@ -40,7 +40,7 @@
                     <img src="../assets/homeAssets/youtubeLogo.png" width="" alt="">
                 </div>
             </div>
-            <div class="row">
+            <div class="row mx-0">
                 <div class="col-12 col-lg-6 text-lg-start mt-4 mt-lg-0">
                     <a href="#" class="footerLink2">{{ $t('footer.privacyPolicy') }}</a> | <a href="#" class="footerLink2">{{ $t('footer.termsCondition') }}</a>
                 </div>

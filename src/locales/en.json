@@ -190,6 +190,11 @@
     "programs2" : {
       "title":"Service for Any Level of Expertise",
       "desc": "Whether you’re new to investment or have owned it for years, we’re here to help. Our client service managers have the knowledge and expertise to address any question."
+    },
+
+    "choosePlan" : {
+      "title" : "Join and earn now",
+      "desc" : "Don’t miss your chance to earn an incredible yield on your WP credits with Wise Premium."
     }
   }
 
