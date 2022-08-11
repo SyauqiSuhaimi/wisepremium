@@ -42,7 +42,7 @@
             </div>
             <div class="row mx-0">
                 <div class="col-12 col-lg-6 text-lg-start mt-4 mt-lg-0">
-                    <a href="#" class="footerLink2">{{ $t('footer.privacyPolicy') }}</a> | <a href="#" class="footerLink2">{{ $t('footer.termsCondition') }}</a>
+                    <a href="/privacy-policy" class="footerLink2">{{ $t('footer.privacyPolicy') }}</a> | <a href="/terms-condition" class="footerLink2">{{ $t('footer.termsCondition') }}</a>
                 </div>
                 <div class="col-12 col-lg-6 text-lg-end mt-2 mt-lg-0 copyRight">
                     {{ $t('footer.copyright') }}

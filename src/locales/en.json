@@ -350,6 +350,131 @@
       "title" : "11. CONTACT",
       "desc" : "11.1 All questions relating to data and your privacy are welcomed and should be addressed to our support team. If you have any questions, comments or requests regarding this privacy policy then please contact WP Support Team via email at info[at]wisepremium.com"
     }
+  },
+
+  "terms" : {
+
+    "title" : "Terms & Conditions",
+    "dateUpdate" : "Last updated: 1st June 2022",
+    "intro" : "These Terms and Conditions apply to your Wise Premium member account. This Agreement is between Wise Premium (202135077N) and you. If you are a Cardholder (as defined below), these Terms and Conditions shall also apply to your Wise Premium Payment Card which is powered by Mastercard. In this Agreement, your Wise Premium member account and your Wise Premium Payment Card may be individually or collectively referred to as the “Account”",
+    "intro2" : "You must read these terms and conditions carefully. By using your Membership and/or Account, you will be deemed to have accepted these Terms and Conditions. If you do not accept these Terms and Conditions you should not use your Account. If you have any questions, please contact your Wise Premium Member Support team.",
+
+    "section1" :{
+      
+      "title" : "SECTION 1: ABOUT YOUR ACCOUNT",
+      "desc" : "Your account is not transferable. This account is issued under the laws of Singapore. This Agreement and your Account is operating in the SG and these terms shall be governed by and construed under and in accordance with law of Singapore. We may amend or change the terms and conditions of the charges at any time. We may cancel or suspend your Account and any related agreements at any time at our sole discretion.",
+      "desc2" : "Your Accounts are issued by and are the property of Wise Premium. When referring to “WP”, “We”, “Our” or “Us” this is considered to mean Wise Premium.",
+      "desc3" : "All credits top-up to your Account is held in segregated custodial pooled accounts on your behalf and can be redeemed at any time upon request for the current monetary value held, subject to our fees, local laws and exchange regulations. The Accounts are held for the purposes described in this Agreement which includes payments, card purchases, adjustment of balances for corrections, Account Transactions, fees, and other actions described herein."
+    },
+
+    "section2" :{
+      "title" : "SECTION 2: MEMBERSHIP APPLICATIONS AND MEMBERSHIP CARD",
+      "desc" : "2.1 All Membership applications are subject to acceptance by Wise Premium at its sole discretion. Wise Premium shall notify applicants in the event that your Membership application has been accepted. Wise Premium is under no duty to disclose its reasons for rejecting any Membership application.",
+      "desc2" : "2.2 You are obliged to provide correct personal details when you apply for Membership. Failure to do so may invalidate your Membership and any subsequent transactions. Your responsibility to provide accurate information is a continuing obligation and you must notify Wise Premium promptly in the event that any information provided by you in connection with your Membership changes.",
+      "desc3" : "2.3 Your Membership is personal to you. You are responsible for ensuring that no one (other than your personal assistant on your behalf, where applicable) uses your Membership.",
+      "desc4" : "2.4 Access to and use of your personalized Membership section of the Mobile Application is through a combination of user name and password. You are solely responsible for maintaining the confidentiality of your user name and password and you agree to notify Wise Premium immediately if you believe that there has been any breach of security, including the unauthorized use of your name and password.",
+      "desc5" : "2.5 We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with the Wise Premium privacy policy, further details of which are set out in Clause 10.1. Please note that all information you provide to us is stored on our secure servers. Any payment transactions carried out by us or our chosen third-party provider of payment processing services will be encrypted using Secured Sockets Layer technology.",
+      "desc6" : "2.6 You must notify Wise Premium immediately by e-mail at info[at]wisepremium.com if your Membership Card is lost or stolen."
+
+    },
+    "section3":{
+
+      "title" : "SECTION 3: MEMBERSHIP FEES, UPGRADES, CANCELLATIONS AND CARD RENEWALS",
+      "desc" : "Please refer to your Wise premium Membership Agreement for more information regarding the list of fees associated with your Membership.",
+      "desc2" : "All fees and payments are calculated in USD. If a payment cannot be attributed to USD, foreign exchange fees may apply. If there are no credits or insufficient credits for a calculated fee, then we may partially deduct any of your Account.",
+      "desc3" : "3.1 For the first year of your Membership, Membership Fees and Card Fees payable shall be confirmed to you prior to acceptance of your Membership application. The Membership Fee shall be payable in full upon acceptance of your Membership application. Any increase or decrease to the Monthly Card Fees will be notified to all Members in advance or their Renewal Dates.",
+      "desc4" : "3.2 You acknowledge that your payment of the Membership Fee and Card Fee constitutes your express request for us to begin to supply you with the Services.",
+      "desc5" : "3.3 Membership Fees are non-refundable. Your Membership Fee covers our costs in setting up your Membership and is non-refundable in all circumstances.",
+      "desc6" : "3.4 You have the right to cancel your Membership until the end of 14 days after the day on which we accept your Membership application (“Cancellation Period”) and we would ask that you inform us of your decision in writing.",
+      "desc7" : "3.5 Membership Fees are due on acceptance of your Membership application and annually thereafter (the “Renewal Date”), and full payment will be taken by Wise Premium annually in advance which you have authorised us to deduct such payment from (“Wise Premium Credits”) in accordance with the relevant invoice.",
+      "desc8" : "3.6 Card Fee is due on acceptance of your card application and monthly thereafter (the “Subscription Date”), and full payment will taken by Mastercard monthly in advance which you have authorised us to deduct such payment from (“Wise Premium Prepaid Card”) in accordance with the relevant invoice.",
+      "desc9" : "3.7 If you do not wish to renew your Membership or Prepaid Card you must notify us at least 30 days prior to your Renewal Date.",
+      "desc10" : "3.8 If you do not notify us in accordance with Clause 3.7, Wise Premium reserves the right to recharge the then current Membership Fee and Card Fee in order to renew the Membership and Prepaid Card.",
+      "desc11" : "3.9 Wise Premium reserve the right to refuse to provide the Services should any payment due under these Conditions not be received.",
+      "desc12" : "3.10 If, during the course of your current Membership, you wish to upgrade your Membership to a higher level of Membership or Wise Premium may suggest you to upgrade your Membership based on your usage of the Services, the difference in price between the two categories of Membership will be payable on a pro rata basis.",
+      "desc13" : "3.11 Wise Premium may at your request purchase goods or services on your behalf. In the event that we act as a credit agent in this regard, you hereby authorize Wise Premium to deduct the credit sum from your Wise Premium Credits or Prepaid Card immediately."
+    },
+
+    "section4":{
+
+      "title" : "SECTION 4: SUPPLY OF SERVICES",
+      "desc" : "4.1 Wise Premium shall supply the Services to the Member during the Membership in accordance with the Member’s particular Requests, provided that Wise Premium shall not be required to provide or facilitate the supply of goods and/or services that it deems at its sole discretion may violate applicable laws, standards and/or regulations or may offend taste and decency in the relevant jurisdiction.",
+      "desc2" : "4.2 Wise Premium shall use its reasonable endeavours to meet any performance dates specified, but any such dates shall be estimates only and time shall not be of the essence for performance of any Services.",
+      "desc3" : "4.3 Wise Premium shall have the right to make any changes to the Services which are necessary to comply with any applicable law or safety requirement, or which do not materially affect the nature or quality of the Services, and Wise Premium shall notify the Member in any such event.",
+      "desc4" : "4.4 Services will be provided in English and Mandarin.",
+      "desc5" : "4.5 Reservation Service",
+      "desc6" : "(a) When you use the booking service you hereby authorize us to deduct your Wise Premium Credits for any booking on your behalf to the shop which is forfeited as a result your cancellation of the booking.",
+      "desc7" : "(b) When you use the booking service you agree that where you cancel a booking within 24 hours of the time the reservation is made by you shall not be entitled to any refund of any credits paid to secure the booking.",
+      "desc8" : "(c) Wise Premium reserves the right to deny restaurant requests from Members if Members repeatedly fail to honor their bookings or continuously violate cancellation policies.",
+      "desc9" : "(d) Admission of Members to any shop premises is at all times at the sole discretion of the Supplier and Wise Premium shall have no liability where a Member is refused admission to a shop."
+      
+    },
+
+    "section5":{
+
+      "title" : "SECTION 5: PLACING A REQUEST",
+      "desc" : "5.1 Members may place Requests through telephone, message or e-mail.",
+      "desc2" : "5.2 Wise Premium, acting reasonably, reserves the right to withdraw any of the Services and/or to refuse to accept any Requests at its sole discretion.",
+      "desc3" : "5.3 If Wise Premium is unable or not obliged to deal with any Request, it will inform the Member as soon as reasonably practicable.",
+      "desc4" : "5.4 You undertake that all details you provide to us for the purpose of booking, ordering or purchasing products or services are correct, that the Wise Premium Credits and/or Prepaid Card you use from time to time is your own and that you have sufficient funds to cover the cost of the product or service.",
+      "desc5" : "5.5 From time to time the procurement or provision of certain services, products or benefits may incur a Wise Premium services fee or handling charge (of which you will be notified in advance) and in such event you hereby authorise Wise Premium to deduct your Wise Premium Credits with any such handling charges or, alternatively, to invoice you in respect of such fees or charges."
+      
+    },
+
+    "section6":{
+
+      "title" : "SECTION 6: CANCELLATIONS, REFUNDS AND RETURNS",
+      "desc" : "6.1 The Member acknowledges that the sales contract for the supply of goods and/or services made as a result of a Request is between the Member and the relevant Supplier and that Wise Premium is not a party to such contract. Cancellation of contracts with Suppliers should be addressed with the Supplier directly and will be subject to the relevant Supplier’s policies.",
+      "desc2" : "6.2 If a request for a specific product or service is not available, Wise Premium may offer you substitute products or services of a similar description and standard. You may at your sole discretion refuse acceptance of such substitute products and/or services and request a full refund in the event that payment has already been made to the Supplier for the unavailable product or service.",
+      "desc3" : "6.3 All descriptions of any products, services or Benefits on the Mobile Application has been approved by the relevant Supplier. Wise Premium shall not be liable for inaccurate or misleading descriptions.",
+      "desc4" : "6.4 Payment for all products and services shall be due immediately upon acceptance of the order by the relevant Supplier.",
+      "desc5" : "6.5 The Member further acknowledges that for goods purchased on his or her behalf by Wise Premium directly from a Supplier, returns and exchanges will be subject to the terms and conditions of that Supplier and returns or exchange of goods purchased may not always be permitted. In circumstances where Wise Premium is asked to source a specific item for a Member, Wise Premium shall inform the Member of the refund and exchange policy of that Supplier in advance. Wise Premium shall not be liable to the Member where a Supplier does not accept the return or exchange of an item.",
+      "desc6" : "6.6 It shall be the Member’s sole responsibility to retain all proof of return of goods to a Supplier, we recommend returning the goods by registered delivery, or by any other similar means of ascertaining the date of the return dispatch and tracking the return.",
+      "desc7" : "6.7 We will inform you when we become aware that a refund of an order has been processed by a Supplier.",
+      "desc8" : "6.8 In the case of premium courier services, if the Member is not at the specified Delivery address to receive their Order at the scheduled time, the Member may incur further charges for subsequent attempts to re-deliver the goods."
+      
+    },
+
+    "section7":{
+
+      "title" : "SECTION 7: SUPPLIERS",
+      "desc" : "7.1 Suppliers are responsible for providing you with the services and products you request us to order on your behalf from time to time. Wise Premium shall communicate with Suppliers on your behalf unless it is more appropriate for you to contact the Supplier directly.",
+      "desc2" : "7.2 Suppliers may impose their own terms and conditions which, in every case apply to the supply of goods and/or services by that Supplier to you, and such terms and conditions shall be binding upon you at the time of order.",
+      "desc3" : "7.3 You acknowledge that the offers are subject to availability and may change from time to time without notice.",
+      "desc4" : "7.4 If Wise Premium’s performance of any of its obligations under these Conditions is prevented or delayed by any act or omission by the Member or failure by the Member to perform any relevant obligation (Member Default):",
+      "desc5" : "(a) Wise Premium shall without limiting its other rights or remedies have the right to suspend performance of the Services until the Member remedies the Member Default, and to rely on the Member Default to relieve it from the performance of any of its obligations to the extent the Member Default prevents or delays Wise Premium’s performance of any of its obligations;",
+      "desc6" : "(b) Wise Premium shall not be liable for any costs or losses sustained or incurred by the Member arising directly or indirectly from Wise Premium’s failure or delay to perform any of its obligations as set out in this clause 7.4; and",
+      "desc7" : "(c) the Member shall reimburse Wise Premium on written demand for any costs or losses sustained or incurred by Wise Premium arising directly or indirectly from the Member Default."
+      
+    },
+
+    "section8":{
+
+      "title" : "SECTION 8: LIMITATION OF LIABILITY",
+      "desc" : "Subject to any condition, warranty or right implied by any statutory consumer guarantee contained in any law which cannot by law be excluded by agreement:",
+      "desc2" : "<ul><li>we give no warranties, and you have no other rights, apart from those expressly set out in these Terms of Conditions; and</li><li>all implied conditions, warranties and rights are excluded.</li></ul>",
+      "desc3" : "Where any condition, warranty or right is implied by law, or any statutory consumer guarantee applies and cannot be excluded, we limit our liability for breach of, or other act contrary to, that implied condition, warranty or right, or statutory consumer guarantee to the fullest extent permitted by law.",
+      "desc4" : "Subject to the preceding paragraphs, we (including, in this limitation of liability clause, our related bodies corporate, directors, officers, employees, agents and suppliers) expressly disclaim all liability to you or any other persons for any losses, damages, liabilities, claims and expenses (including but not limited to legal costs and defence or settlement costs) whatsoever, whether direct, indirect or consequential, arising out of or referable to the Webiste Content or Mobile Application (or material accessed via the Website or Mobile Application), or to access of this Website by you, howsoever caused, whether in contract, tort including negligence, statute or otherwise.",
+      "desc5" : "Except as expressly set out in these Conditions, all warranties, conditions and other terms implied by statute or common law are, to the fullest extent permitted by law, excluded from these Conditions."
+    },
+
+    "section9":{
+
+      "title" : "SECTION 9: COMMENCEMENT AND TERMINATION",
+      "desc" : "These Conditions shall take effect and be binding upon the Member and Wise Premium upon acceptance by Wise Premium of your Membership application. These Conditions shall be applicable for the duration of your Membership and shall only cease to have effect upon the expiry or termination of your Membership. You agree that your only rights and remedies under these Conditions shall be against Wise Premium and no other entity."
+    },
+
+    "section10":{
+
+      "title" : "SECTION 10: GENERAL",
+      "desc" : "10.1 Privacy and Data Protection <br>The Services and your Membership are subject to the Wise Premium privacy policy, incorporated into these Conditions by reference and set out at the following web address: Privacy Policy which applies at all times in relation to any data that we collect from you. ",
+      "desc2" : "10.2 Assignment and subcontracting:",
+      "desc3" : "(a) Wise Premium may at any time assign, transfer, charge, subcontract or deal in any other manner with all or any of its rights under these Conditions and may subcontract or delegate in any manner any or all of its obligations under these Conditions to any third party or agent.<br>(b) The Member shall not, without the prior written consent of Wise Premium, assign, transfer, charge, subcontract or deal in any other manner with all or any of its rights or obligations under these Conditions.",
+      "desc4" : "10.3 Waiver:",
+      "desc5" : "(a) A waiver of any right under these Conditions is only effective if it is in writing and shall not be deemed to be a waiver of any subsequent breach or default. No failure or delay by a party in exercising any right or remedy under these Conditions or by law shall constitute a waiver of that or any other right or remedy, nor preclude or restrict its further exercise. No single or partial exercise of such right or remedy shall preclude or restrict the further exercise of that or any other right or remedy.<br>(b) Unless specifically provided otherwise, rights arising under these Conditions are cumulative and do not exclude rights provided by law.",
+      "desc6" : "10.4 Variation: <br>Wise Premium may vary these Conditions from time to time and will notify you of any changes in a timely manner. Notification will be by some or all of the following: Wise Premium Newsletter, the Website, by Email or by phone. Your continued use of your Membership constitutes acceptance of such variations to these Conditions."
+      
+    }
   }
 
   

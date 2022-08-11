@@ -7,10 +7,10 @@
             <div class="row mt-lg-4">
                 <div class="col-lg-4">
                     <div class="row">
-                        <div class="col-lg-2 p-0">
+                        <div class="col-2 p-0">
                             <img src="../../assets/conciergeAssets/icon1.png" width="60" alt="">
                         </div>
-                        <div class="col-lg-10 " style="text-align :justify">
+                        <div class="col-10 " style="text-align :justify">
                             <p class="chooseTitle">{{ $t('concierge.features1.title') }}</p>
                             <p>{{ $t('concierge.features1.desc') }}</p>
                         </div>
@@ -18,10 +18,10 @@
                 </div>
                 <div class="col-lg-4 ">
                     <div class="row ">
-                        <div class="col-lg-2 p-0">
+                        <div class="col-2 p-0">
                             <img src="../../assets/conciergeAssets/icon2.png" width="60" alt="">
                         </div>
-                        <div class="col-lg-10 " style="text-align :justify">
+                        <div class="col-10 " style="text-align :justify">
                             <p class="chooseTitle">{{ $t('concierge.features2.title') }}</p>
                             <p>{{ $t('concierge.features2.desc') }}</p>
                         </div>
@@ -29,10 +29,10 @@
                 </div>
                 <div class="col-lg-4 ">
                     <div class="row ">
-                        <div class="col-lg-2 p-0">
+                        <div class="col-2 p-0">
                             <img src="../../assets/conciergeAssets/icon3.png" width="60" alt="">
                         </div>
-                        <div class="col-lg-10 " style="text-align :justify">
+                        <div class="col-10 " style="text-align :justify">
                             <p class="chooseTitle">{{ $t('concierge.features3.title') }}</p>
                             <p>{{ $t('concierge.features3.desc') }}</p>
                         </div>

@@ -5,6 +5,7 @@ import ValueProgView from '../views/ValueProgView.vue'
 import ContactUsView from '../views/ContactUsView.vue'
 import FAQView from '../views/FAQView.vue'
 import PrivacyView from '../views/PrivacyView.vue'
+import TermsView from '../views/TermsView.vue'
 
 const routes = [
   {
@@ -44,6 +45,11 @@ const routes = [
     path: '/privacy-policy',
     name: 'privacy-policy',
     component: PrivacyView
+  },
+  {
+    path: '/terms-condition',
+    name: 'terms-condition',
+    component: TermsView
   }
 ]
 
