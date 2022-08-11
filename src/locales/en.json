@@ -204,32 +204,153 @@
 
   "contactUs": {
     "name" : "Full Name *",
-    "email" : "Email Address",
-    "contact" : "Contact Number",
+    "email" : "Email Address *",
+    "contact" : "Contact Number *",
     "message" : "Message *",
     "button" : "Submit"
   },
 
   "faq": {
 
-    "title":"Here are some of the frequently asked question",
+    "title" : "FAQ",
+    "desc" : "We are here to help",
 
-    "qs1" : "How do I become Wise Premium member?",
+    "title2":"Here are some of the frequently asked question",
+
+    "qs1" : "- How do I become Wise Premium member?",
     "ans1" : "To become a Wise Premium member, you need to open an account. The process is very quick and easy. You can download the app from App or Play Stores to register.",
 
-    "qs2" : "How do I change or update the information registered in my account?",
+    "qs2" : "- How do I change or update the information registered in my account?",
     "ans2" : "You can update your email address and phone number in the account yourself. If you need to amend other personal details,  including your residential address, you will need to contact our Customer Support team who will take you through the process. You can contact the customer support team in the form above or email them at info[at]wisepremium.com.",
     
-    "qs3" : "How does the concierge service work?",
+    "qs3" : "- How does the concierge service work?",
     "ans3" : "As a concierge and lifestyle management service, we want to make your life run effortlessly. We use our in-depth knowledge, experience and contacts to source the best products and services for you. We can save you time money and frustration by helping you plan, design or organise virtually any event or activity.",
     
-    "qs4" : "How can do I make a request for concierge service?",
+    "qs4" : "- How can do I make a request for concierge service?",
     "ans4" : "Simply contact our concierge through the Wise Premium app where you can send a request directly to the team. Alternatively, you can email your request to info[at]wisepremium.com."
 
 
-  }
+  },
 
-  
+  "privacy": {
+
+    "title": "Privacy Policy",
+    "dateUpdate" : "Last updated: 1st June 2022",
+    "intro" : "Wise Premium Private Limited (“WP”, “we” or “us”) is committed to protecting and respecting your privacy.",
+
+    "section1":{
+
+      "title" : "1. SCOPE OF POLICY",
+      "desc" : "1.1 This policy together with the General Terms of Service and/or our Business Terms of Service apply to your use of:",
+      "desc2" : "a) our website at www.wisepremium.com (the “Sites”)<br>b) the Wise Premium App (“App”) once you have downloaded a copy of the App onto your mobile telephone or handheld device (“Device”); and<br>c) any of the services accessible through the App or the Site (the “Services”).",
+      "desc3" : "1.2 This policy sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed and used by us.",
+      "desc4" : "If you have any questions about this privacy notice, including any requests to exercise your legal rights, please contact us or our Wise Premium Support Team by sending an email to info[at]wisepremium.com.",
+      "desc5" : "So that we’re clear and there’s no misunderstanding about how we handle your personal data, we will:",
+      "desc6" : "<ul><li>Always keep your data safe and private.</li><li>Never sell your data.</li><li>Allow you to manage and review your marketing choices at any time.</li></ul>"
+    },
+
+    "section2" : {
+
+      "title" : "2. COOKIES",
+      "desc": "2.1 We use cookies to distinguish you from other users of the App or the Site. This helps us to provide you with a good experience when you use the App or browse our Site and also allows us to improve the App and our Site. For detailed information on the cookies we use and the purposes for which we use them."
+    },
+
+    "section3":{
+
+      "title" : "3. INFORMATION WE COLLECT ABOUT YOU",
+      "desc" : "3.1 We will collect and process the following data about you:",
+      "desc2" : "a) Information you give us “Submitted Information”: This is the information you give us about you by filling in forms on the App and/or the Site, or by corresponding with us (for example, by email or via the chat functions on the App and/or the Site). It includes information you provide when you register to use the App, download or register the App, subscribe to any of our services, enter into any transaction on the App or the Site, participate in discussion boards or other social media functions on the App or the Site, enter a competition, promotion or survey and when you report a problem with an App, the Services, or the Site. If you contact us, we will keep a record of that correspondence. The information you give us may include your name, address, date of birth, e-mail address, phone number, the Device’s phone number, username, password and other registration information you provide us in order to prove your eligibility to use our services.",
+      "desc3" : "b) Information we collect about you and your device. Each time you visit our Site or App, we may automatically collect the following information:",
+      "desc4" : "<ul><li>Technical information, including the internet protocol (IP) address used to connect your computer to the Internet, your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform, device information and the type of mobile device you use, a unique device identifier, mobile network information, your mobile operating system, the type of mobile browser you use, time zone setting “Device Information“;</li><li>(information about your visit, including the full uniform resource locators (URL), clickstream to, through and from our site (including date and time), services you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), the methods used to browse away from the page, device information;</li><li>Information stored on your Device, including if you allow WP to access contact information from your address book, login information, photos, videos or other digital content, check ins (Content Information). The site and/or App will periodically recollect this information in order to stay up-to-date;</li><li>Details of your use of our App or your visits to our Site including transaction details relating to your use of our services, the time, date and location of the place the transaction was entered into.</li></ul>",
+      "desc5" : "c) Information to help us deliver our service to you. We work closely with third parties in order to help us deliver our Service to you. These third parties are business partners, subcontractors in technical, payment and delivery services, advertising networks, analytics providers, search information providers, credit reference agencies, fraud prevention agencies, customer service providers and developers. Information we may collect about you from such parties can include search information, information which helps us to verify your identity or information relating to your payment transactions. Please see the ‘Disclosure of your Information’ section for more information."
+    },
+
+    "section4":{
+
+      "title" : "4. USES MADE OF THE INFORMATION",
+      "desc" : "4.1 Below is a summary of the key types of data that we make use of as part of the WP Services. For more information on how these types of data are used and for which purposes then please see the table below.",
+      "desc2" : "We use information held about you in the following ways:",
+      "desc3" : "Submitted Information: We will use this information:",
+      "desc4" : "<ul><li>to carry out our obligations arising from any transactions you enter into with us, for example top-up and membership purchases and to provide you with the information, products and services that you request from us;</li><li>to provide you with information about other goods and services we offer that are similar to those that you have already purchased or enquired about;</li><li>to provide you, or permit selected third parties to provide you with information about goods or services we feel may interest you. Please see the section on ‘Third Party Services’ below for more information;</li><li>to verify your identity to protect against fraud, comply with financial crime laws and to confirm your eligibility to use our products and services;</li><li>to notify you about changes to our service;</li><li>to ensure that content from our site is presented in the most effective manner for you and for your computer.</li></ul>",
+      "desc5" : "Device Information: We will use this information:",
+      "desc6" : "<ul><li>to administer our Site and the App for internal operations, including troubleshooting, data analysis, testing, research, statistical and survey purposes;</li><li>to improve our Site and the App to ensure that content is presented in the most effective manner for you and for your computer;</li><li>to allow you to participate in interactive features of our service, when you choose to do so;</li><li>as part of our efforts to keep our Site and the App safe and secure;</li><li>to measure or understand the effectiveness of advertising we serve to you and others, and to deliver relevant advertising to you;</li><li>to make suggestions and recommendations to you and other users of our Site and the App about goods or services that may interest you or them;</li><li>to verify your identity, protect against fraud, comply with anti-financial crime laws and to confirm your eligibility to use our products and services; and</li><li>to comply with our regulatory obligations.</li></ul>",
+      "desc7" : "Location Information: We will use this information:",
+      "desc8" : "<ul><li>to deliver relevant advertising to you, for example, information on nearby merchants;</li><li>to protect against fraud; and</li></ul>",
+      "desc9" : "Third Party Information: We will combine this information with information you give to us and information we collect about you. We will use this information and the combined information:",
+      "desc10" : "<ul><li>to help us better understand your interest and spending behaviour so that we may make decisions about how we manage your WP Membership;</li><li>to process applications for products and services available through us, including making decisions about whether to agree to approve any applications; and</li><li>for the purposes set out above (depending on the types of information we receive).</li></ul>",
+      "desc11" : "4.2 We may associate any category of information with any other category of information and will treat the combined information as personal data in accordance with this policy for as long as it is combined.",
+      "desc12" : "4.3 If we decide to engage advertisers to promote our products and services, the advertisers and their advertising networks may require anonymized personal data to serve relevant adverts to you and others. We will never disclose identifiable information about individuals to advertisers, but we may provide them with aggregate information about our users. We may also use such aggregate information to help our advertising partners provide a tailored and targeted campaign, relevant for a subsection of our users. In some instances, we may use personal data we have collected from you to enable our advertising partners to display their advertisement to their target audience.",
+      "desc13" : "Purposes for which we will use your personal data",
+      "desc14" : "4.4 We have set out below, in a table format, a description of all the ways we use your personal data as stated above, and which of the legal bases we rely on to do so. We have also identified what our legitimate interests are where appropriate.",
+      "desc15" : "Note that we may process your personal data for more than one lawful ground depending on the specific purpose for which we are using your data. Please contact our Support Team if you need details about the specific legal ground we are relying on to process your personal data."
+    },
+
+    "section5":{
+
+      "title" : "5. MARKETING",
+      "desc" : "5.1 We want to make it crystal clear how we use your data for marketing purposes and how you can ‘opt-out’ from receiving any marketing communications from us whenever you want.",
+      "desc2" : "5.2 We strive to provide you with choices regarding certain personal data uses, particularly around marketing and advertising. If you receive any marketing related communications such as email and wish to end your subscription, follow the unsubscribe links on any marketing message sent to you.",
+      "desc3" : "PROMOTIONAL OFFERS FROM US",
+      "desc4" : "5.3 We may use your personal data (such as your Submitted Information, Location Information or transaction information) to form a view on what we think you may want or need, or what may be of interest to you. This is how we decide which products, services and offers may be relevant for you.",
+      "desc5" : "5.4 You will receive marketing communications from us if you have signed up to and/or utilise the WP Services and, in each case, you have not opted out of receiving marketing notifications."
+    },
+
+    "section6":{
+
+      "title" : "6. DISCLOSURE OF YOUR INFORMATION",
+      "desc" : "DATA PROCESSING PARTNERS",
+      "desc2" : "6.1 We will disclose the data we collect from you to certain third parties who use personal data in delivering their services to us, they use data securely and confidentially and under strict contractual controls in accordance with data protection laws and enforced by WP.",
+      "desc3" : "6.2 We send personal data to the following sets of data processors in order to perform the WP Services:",
+      "desc4" : "<ul><li><i>Fraud prevention agencies</i><br>This is in order to verify your identity, protect against fraud, comply with anti-money laundering laws and to confirm your eligibility to use our products and services;</li><li>Cloud storage providers<i></i><br>This is in order to safely and securely store your data with WP;</li><li><i>Banking and financial services partners</i><br>Financial services providers that help us provide the WP Services;</li><li><i>Credit reference agencies</i><br>For the purpose of verifying your personal details. Please see section 4.2 above for more information;</li><li><i>Card manufacturing/personalization and delivery companies</i><br>For the purpose of creating your personalized WS card and delivering this to you at your requested address;</li><li><i>Advertisers and analytics providers</i><br>If we decide to engage advertisers to promote our products and services, the advertisers and their advertising networks may require anonymized personal data to serve relevant adverts to you and others. We will never disclose identifiable information about individuals to advertisers, but we may provide them with aggregate information about our users.</li></ul>",
+      "desc5" : "6.3 We may also disclose your personal information in the following circumstances:",
+      "desc6" : "If we are under a duty to disclose or share your personal data in order to comply with any legal or regulatory obligation or request.",
+      "desc7" : "In order to:",
+      "desc8" : "(i) enforce or apply the General Terms of Service and/or the Business Terms and/or any other agreements between you and us or to investigate potential breaches; or",
+      "desc9" : "(ii) protect the rights, property or safety of WP, our customers or others. This includes exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction.",
+      "desc10" : "6.4 We may share your data in order to provide certain services to you upon your request. For example, we will share your data with our credit referencing agency partners so that they may verify details you provided us when you submitted the application or card processor, in order to process card transactions. Your data will only be sent across in these instances once you have requested to utilize member services. You can withdraw your consent at any time by contacting support team, however, please be aware that this may impact your ability to use such services going forward. Please remember that when we share your data with our partners in such instances that you will also be subject to our partner’s privacy policy as well.",
+      "desc11" : "6.5 From time-to-time, we may partner with certain third parties in order to offer you co-branded services or promotional offers. In order to provide these services to you and to allow us and any associated third party to optimize their/our offering to you, we will share some of your personal data with such third parties. We will obtain your express opt-in consent before we share your personal data with any company outside the WP group of companies for these purposes.",
+      "desc12" : "6.6 You can withdraw your consent at any time after giving your explicit opt-in consent by contacting support team and letting us know."
+    },
+
+    "section7":{
+
+      "title" : "7. STORAGE SECURITY & INTERNATIONAL TRANSFERS",
+      "desc" : "7.1 The data that we collect from you will be transferred to and stored at a destination within the Singapore. As we provide an international service your data may be processed outside of the Singapore in order for us to fulfil our contract with you to provide the WP Services. We will need to process your personal data in order for us. We will take all steps to ensure that your data is treated securely and in accordance with this privacy policy.",
+      "desc2" : "7.2 All information you provide to us is stored on our secure servers. Any payment transactions carried out by us or our chosen third-party provider of payment processing services will be encrypted. Where we have given you (or where you have chosen) a password that enables you to access certain parts of our App, you are responsible for keeping this password confidential. We ask you not to share a password with anyone.",
+      "desc3" : "7.3 Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to our Site or our App; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to try to prevent unauthorized access."
+    },
+
+    "section8":{
+
+      "title" : "8. RETAINING YOUR INFORMATION",
+      "desc" : "8.1 In order to comply with applicable regulations, WP will retain personal data about you and your WP Transactions. We therefore use this retention requirement as a benchmark for all personal data that we receive from you. In order to not hold your information for longer than is strictly necessary we will not hold any of your personal data after the termination of our business relationship."
+    },
+
+    "section9":{
+
+      "title" : "9. YOUR LEGAL RIGHTS",
+      "desc" : "You have rights under the data protection laws in relation to your personal data. Please see below to find out more about these rights:",
+      "desc2" : "You have the right to:",
+      "desc3" : "<strong>Request access to your personal data (commonly known as a “data subject access request“).</strong>  This enables you to receive a copy of the personal data we hold about you. If you require this, then please reach out to our support team either by phone or email.",
+      "desc4" : "<strong>Request correction of the personal data that we hold about you. </strong>  This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us. If you require this, then please reach out to our support team either by phone or email.",
+      "desc5" : "<strong>Request erasure of your personal data.</strong> This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request. Please note that these retention requirements supersede any right to erasure requests under applicable data protection laws.",
+      "desc6" : "<strong>Object to processing of your personal data. </strong> This is in situations where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights. Please note that these requirements supersede any right to objection requests under applicable data protection laws. If you object to the processing of certain data, then we may not be able to provide the WP Services and it is likely we will have to terminate your account.",
+      "desc7" : "<strong>Request restriction of processing of your personal data.</strong>This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data’s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it. Please note that any requests in relation to the restriction of the processing of your data means that we may not be able to perform the contract we have or are trying to enter with you (including the WP Services). In this case, we may have to cancel your use of the WP Services, but we will notify you if this is the case at the time.",
+      "desc8" : "<strong>Withdraw consent at any time where we are relying on consent to process your personal data. </strong>However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide the WP Services to you. We will advise you if this is the case at the time you withdraw your consent."
+    },
+
+    "section10":{
+
+      "title" : "10. CHANGES TO PRIVACY POLICY",
+      "desc" : "10.1 Any changes we may make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by e-mail and/or when you next log onto the App. The new terms may be displayed on-screen and you may be required to read and accept them to continue your use our App or the Services."
+    },
+
+    "section11":{
+
+      "title" : "11. CONTACT",
+      "desc" : "11.1 All questions relating to data and your privacy are welcomed and should be addressed to our support team. If you have any questions, comments or requests regarding this privacy policy then please contact WP Support Team via email at info[at]wisepremium.com"
+    }
+  }
 
   
 }

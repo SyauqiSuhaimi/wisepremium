@@ -83,7 +83,7 @@ export default {
     text-decoration: none;
 }
 
-.footerLink:hover {
+.footerLink:hover, .footerLink2:hover {
     color: white;
 }
 
@@ -91,6 +91,8 @@ export default {
     color: white;
     text-decoration: none;
 }
+
+
 
 
 

@@ -4,6 +4,7 @@ import ConciergeView from '../views/ConciergeView.vue'
 import ValueProgView from '../views/ValueProgView.vue'
 import ContactUsView from '../views/ContactUsView.vue'
 import FAQView from '../views/FAQView.vue'
+import PrivacyView from '../views/PrivacyView.vue'
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
     path: '/faq',
     name: 'faq',
     component: FAQView
+  },
+  {
+    path: '/privacy-policy',
+    name: 'privacy-policy',
+    component: PrivacyView
   }
 ]
 

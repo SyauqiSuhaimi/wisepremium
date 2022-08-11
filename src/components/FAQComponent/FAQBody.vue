@@ -1,8 +1,16 @@
 <template>
+<div class="imgFAQ w-100">
+    <div class="bg-dark bg-opacity-25 w-100 h-100 d-flex flex-row-reverse d-flex align-items-center" style="padding: 10px 15vw;">
+        <div>
+            <h1 class="faqTitle">{{ $t('faq.title') }}</h1>
+            <h3>{{ $t('faq.desc') }}</h3>
+        </div>
+    </div>
+</div>
   <div class="bg_section">
-    <div class="content_section py-5 px-4">
+    <div class="content_section py-3 py-lg-5 px-4">
         <div class="mb-4">
-            <h2>{{ $t('faq.title') }}</h2>
+            <h2>{{ $t('faq.title2') }}</h2>
         </div>
         <div class="row faqContainer">
             <div @click="faq1Active = !faq1Active" :class="{'active' : faq1Active}" class="col-12 border d-flex align-items-center p-3 faqQs">
@@ -58,6 +66,23 @@ export default {
 </script>
 
 <style>
+
+.faqTitle{
+    font-weight: bold;
+    color: var(--thirdcolor);
+}
+
+.imgFAQ{
+  background-image: url(../../assets/FAQAssets/bg.jpg);
+  background-size: cover;
+  background-position: 60% 0%;
+  background-repeat: no-repeat;
+  height: 35vw;
+  /* filter: brightness(70%); */
+  text-align: left;
+  color: white;
+  
+}
 
 .slide-fade-enter-active {
   transition: all 0.8s ease-out;
