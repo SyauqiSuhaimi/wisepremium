@@ -3,8 +3,8 @@
     <div class="bg_section">
         <img id="myImg" class="w-100 mb-4" src="../../assets/conciergeAssets/bg.jpg">
         <div class="content_section">
-            <h1 class="chooseTitle" style="font-size:60px;">{{ $t('concierge.about.title') }}</h1>
-            <div class="row mt-lg-4">
+            <h1 class="conciergeTitle">{{ $t('concierge.about.title') }}</h1>
+            <div class="row mt-lg-4 px-3 px-lg-0 mx-0">
                 <div class="col-lg-4">
                     <div class="row">
                         <div class="col-2 p-0">
@@ -52,6 +52,10 @@ export default {
 
 <style>
 
+.conciergeTitle{
+    color: var(--thirdcolor);
+    font-size:60px;
+}
 
 .aboutConcierge_section .content_section{
   max-width: 1100px;
@@ -61,6 +65,15 @@ export default {
 
 .aboutConcierge_section .bg_section{
   background-color: var(--bgcolor);
+}
+
+@media (max-width: 575.98px){
+  
+.conciergeTitle{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
 }
 
 </style>

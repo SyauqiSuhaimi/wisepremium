@@ -99,6 +99,10 @@ export default {
 
 <style>
 
+.privacy_content h5{
+  text-align: left;
+}
+
 .privacy_content{
   text-align: justify;
   max-width: 1100px;

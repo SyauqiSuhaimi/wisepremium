@@ -4,7 +4,7 @@
     <h1>{{ $t('cards.title') }}</h1>
     <p class="cardTitle">{{ $t('cards.desc') }}</p>
 
-    <div class="row">
+    <div class="row mx-0">
         <div class="col-lg-4 cardContainer py-3 pyb-5">
             <div class="col-12"><img src="../../assets/homeAssets/Silver-card.png" width="320" alt=""></div>
             <div class="col-12 cardTitle"><h4>{{ $t('cards.cardDetails1.title') }}</h4></div>
@@ -104,6 +104,13 @@ export default {
     color: black;
     opacity: 1;
     /* background-color: black; */
+}
+
+@media (max-width: 575.98px){
+  
+.cardDesc{
+    padding: 0 100px;
+}
 }
 
 

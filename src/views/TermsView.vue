@@ -118,4 +118,8 @@ export default {
   margin-top: 50px;
 }
 
+.terms_content h5{
+  text-align: left;
+}
+
 </style>

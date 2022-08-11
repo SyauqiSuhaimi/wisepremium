@@ -20,4 +20,13 @@ export default {
     padding: 100px 20px;
 }
 
+@media (max-width: 575.98px){
+  
+.choosePlan_section .content_section
+{
+    background-color: #F1F1F1;
+    padding: 50px 20px;
+}
+}
+
 </style>

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg_section">
+    <div class="bg_section d-none d-lg-block">
       <div class="content_section">
         <div class="row mb-5">
           <div class="col-lg-6 px-0 image_Place">
@@ -44,6 +44,58 @@
           </div>
           <div class="col-lg-6 px-0 image_Place">
             <div class="imageContainer"><img src="../../assets/homeAssets/content4.jpg" alt="img" style="width:100%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- ///////////////////////////////// Mobile View ///////////////////////////  -->
+        <div class="bg_section d-lg-none">
+      <div class="content_section">
+        <div class="row mx-0">
+          <div class="col-lg-6 px-0 image_Place">
+            <div class="imageContainer"><img src="../../assets/homeAssets/content1.jpg" alt="img" style="width:100%"></div>
+          </div>
+          <div class="col-lg-6 text-justify programs_content d-flex align-items-center px-4">
+            <div>
+              <h3 class="smallTitle">{{ $t('programs.content1.title') }}</h3>
+              <p>{{ $t('programs.content1.desc') }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mx-0">
+          <div class="col-lg-6 px-0 image_Place">
+            <div class="imageContainer"><img src="../../assets/homeAssets/content2.jpg" alt="img" style="width:100%"></div>
+          </div>
+          <div class="col-lg-6 text-justify programs_content d-flex align-items-center px-4">
+            <div>
+              <h3 class="smallTitle">{{ $t('programs.content2.title') }}</h3>
+            <p>{{ $t('programs.content2.desc') }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mx-0">
+          <div class="col-lg-6 px-0 image_Place">
+            <div class="imageContainer"><img src="../../assets/homeAssets/content3.jpg" alt="img" style="width:100%"></div>
+          </div>
+          <div class="col-lg-6 text-justify programs_content d-flex align-items-center px-4">
+            <div>
+              <h3 class="smallTitle">{{ $t('programs.content3.title') }}</h3>
+              <p>{{ $t('programs.content3.desc') }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mx-0">
+          <div class="col-lg-6 px-0 image_Place">
+            <div class="imageContainer"><img src="../../assets/homeAssets/content4.jpg" alt="img" style="width:100%"></div>
+          </div>
+          <div class="col-lg-6 text-justify programs_content d-flex align-items-center px-4">
+            <div>
+              <h3 class="smallTitle">{{ $t('programs.content4.title') }}</h3>
+              <p>{{ $t('programs.content4.desc') }}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -118,6 +170,14 @@ export default {
   background-size: cover;
   background-image: url(../../assets/homeAssets/content4.jpg);
 } */
+
+@media (max-width: 575.98px){
+  
+.program_section .content_section{
+
+  margin: 30px auto !important;
+}
+}
 
 
 </style>
