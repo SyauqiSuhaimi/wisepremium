@@ -9,20 +9,25 @@
             </div>
             <div class="row link_section px-1">
                 <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
-                    <a href="/" class="footerLink"><p>{{ $t('footer.links.memberships') }}</p></a>
+                    <!-- <a href="/" class="footerLink"><p>{{ $t('footer.links.memberships') }}</p></a> -->
+                    <router-link :to="`/${$i18n.locale}/home`" class="footerLink"><p>{{ $t('footer.links.memberships') }}</p></router-link>
                 </div>
                 <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
-                    <a href="/concierge" class="footerLink"><p>{{ $t('footer.links.concierge') }}</p></a>
+                    <!-- <a href="/concierge" class="footerLink"><p>{{ $t('footer.links.concierge') }}</p></a> -->
+                    <router-link :to="`/${$i18n.locale}/concierge`" class="footerLink"><p>{{ $t('footer.links.concierge') }}</p></router-link>
                 </div>
                 <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
-                    <a href="/valueProg" class="footerLink"><p>{{ $t('footer.links.valueProg') }}</p></a>
+                    <!-- <a href="/valueProg" class="footerLink"><p>{{ $t('footer.links.valueProg') }}</p></a> -->
+                    <router-link :to="`/${$i18n.locale}/valueProg`" class="footerLink"><p>{{ $t('footer.links.valueProg') }}</p></router-link>
                 </div>
                 <div class="col-3 d-lg-none"></div>
                 <div class="col px-0 d-flex align-items-center justify-content-center">
-                    <a href="/FAQ" class="footerLink"><p>{{ $t('footer.links.faq') }}</p></a>
+                    <!-- <a href="/FAQ" class="footerLink"><p>{{ $t('footer.links.faq') }}</p></a> -->
+                    <router-link :to="`/${$i18n.locale}/FAQ`" class="footerLink"><p>{{ $t('footer.links.faq') }}</p></router-link>
                 </div>
                 <div class="col px-0 d-flex align-items-center justify-content-center">
-                    <a href="/contactUs" class="footerLink"><p>{{ $t('footer.links.contactUs') }}</p></a>
+                    <!-- <a href="/contactUs" class="footerLink"><p>{{ $t('footer.links.contactUs') }}</p></a> -->
+                    <router-link :to="`/${$i18n.locale}/contactUs`" class="footerLink"><p>{{ $t('footer.links.contactUs') }}</p></router-link>
                 </div>
                 <div class="col-3 d-lg-none"></div>
             </div>
@@ -42,7 +47,7 @@
             </div>
             <div class="row mx-0">
                 <div class="col-12 col-lg-6 text-lg-start mt-4 mt-lg-0">
-                    <a href="/privacy-policy" class="footerLink2">{{ $t('footer.privacyPolicy') }}</a> | <a href="/terms-condition" class="footerLink2">{{ $t('footer.termsCondition') }}</a>
+                    <a href="/en/privacy-policy" class="footerLink2">{{ $t('footer.privacyPolicy') }}</a> | <a href="/en/terms-condition" class="footerLink2">{{ $t('footer.termsCondition') }}</a>
                 </div>
                 <div class="col-12 col-lg-6 text-lg-end mt-2 mt-lg-0 copyRight">
                     {{ $t('footer.copyright') }}

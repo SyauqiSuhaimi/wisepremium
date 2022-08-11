@@ -23,7 +23,8 @@
                     <li><p>{{ $t('cards.cardFtr7') }}</p></li>
                 </ul></div>
             <div class="col-12">
-                <a href="/contactUs" class="button-34">{{ $t('cards.button') }}</a>
+                <!-- <a href="/contactUs" class="button-34">{{ $t('cards.button') }}</a> -->
+                <router-link :to="`/${$i18n.locale}/contactUs`" class="button-34">{{ $t('cards.button') }}</router-link>
             </div>
         </div>
         <div class="col-lg-4 cardContainer py-3 pyb-5">
@@ -44,7 +45,8 @@
                     <li><p>{{ $t('cards.cardFtr7') }}</p></li>
                 </ul></div>
             <div class="col-12">
-                <a href="/contactUs" class="button-34">{{ $t('cards.button') }}</a>
+                <!-- <a href="/contactUs" class="button-34">{{ $t('cards.button') }}</a> -->
+                <router-link :to="`/${$i18n.locale}/contactUs`" class="button-34">{{ $t('cards.button') }}</router-link>
             </div>
         </div>
         <div class="col-lg-4 cardContainer py-3 pyb-5">
@@ -65,7 +67,8 @@
                     <li><p>{{ $t('cards.cardFtr7') }}</p></li>
                 </ul></div>
             <div class="col-12">
-                <a href="/contactUs" class="button-34">{{ $t('cards.button') }}</a>
+                <!-- <a href="/contactUs" class="button-34">{{ $t('cards.button') }}</a> -->
+                <router-link :to="`/${$i18n.locale}/contactUs`" class="button-34">{{ $t('cards.button') }}</router-link>
             </div>
         </div>
     </div>

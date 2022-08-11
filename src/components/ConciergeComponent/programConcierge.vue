@@ -33,7 +33,8 @@
         </div>
     </div>
     <div class="mt-5">
-        <a href="/contactUs" class="button-34">{{ $t('concierge.button') }}</a>
+        <!-- <a href="/contactUs" class="button-34">{{ $t('concierge.button') }}</a> -->
+        <router-link :to="`/${$i18n.locale}/contactUs`" class="button-34">{{ $t('concierge.button') }}</router-link>
     </div>
   </div>
 </template>

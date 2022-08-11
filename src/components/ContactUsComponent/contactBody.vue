@@ -1,5 +1,5 @@
 <template>
-<div class="bg_section py-5">
+<div class="bg_section pb-5">
     <img src="../../assets/contactUsAssets/bg.png" alt="" style="max-width:100%">
     <div class="content_section p-5">
         <form action="" @submit.prevent="postEmail">
@@ -26,8 +26,9 @@
                 <label name="message" for="message">{{ $t('contactUs.message') }}</label>
             </div>
             <div v-if="validate.message == false" class="invalidText"> This field is required. Please enter text.</div>
-            <div class="col-12">
-                <button class="button-34 mt-4" role="button" type="submit">{{ $t('contactUs.button') }}</button>
+            <div class="col-12 mt-4">
+                <button class="button-34" role="button" type="submit">{{ $t('contactUs.button') }}</button>
+                <!-- <router-link :to="`/${$i18n.locale}/contactUs`" class="button-34" >{{ $t('contactUs.button') }}</router-link> -->
             </div>
         </form>
     </div>

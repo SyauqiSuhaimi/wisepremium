@@ -2,7 +2,8 @@
   <div  class="content_section">
     <h4>{{ $t('valueProg.choosePlan.title') }}</h4>
     <p>{{ $t('valueProg.choosePlan.desc') }}</p>
-    <a href="/contactUs" class="button-34">{{ $t('valueProg.choosePlan.button') }}</a>
+    <!-- <a href="/contactUs" class="button-34">{{ $t('valueProg.choosePlan.button') }}</a> -->
+    <router-link :to="`/${$i18n.locale}/contactUs`" class="button-34">{{ $t('valueProg.choosePlan.button') }}</router-link>
   </div>
 </template>
 

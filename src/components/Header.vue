@@ -1,6 +1,7 @@
 <template>
 <div class="" style="background-color:black; padding:10px;">
-  <a class="navbar-brand" href="#"><img src="../assets/wpLogo1.png" width="100" alt=""></a>
+  <!-- <a class="navbar-brand" href="#"><img src="../assets/wpLogo1.png" width="100" alt=""></a> -->
+  <router-link :to="`/${$i18n.locale}/home`" class="navbar-brand"><img src="../assets/wpLogo1.png" width="100" alt=""></router-link>
 </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark">
@@ -12,16 +13,20 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item mx-2">
-          <a class="nav-link active" aria-current="page" href="/">{{ $t('footer.links.memberships') }}</a>
+          <!-- <a class="nav-link active" aria-current="page" href="`/${$i18n.locale}/home">{{ $t('footer.links.memberships') }}</a> -->
+          <router-link :to="`/${$i18n.locale}/home`" class="nav-link active">{{ $t('footer.links.memberships') }}</router-link>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link active" href="/concierge">{{ $t('footer.links.concierge') }}</a>
+          <!-- <a class="nav-link active" href="/concierge">{{ $t('footer.links.concierge') }}</a> -->
+          <router-link :to="`/${$i18n.locale}/concierge`" class="nav-link active">{{ $t('footer.links.concierge') }}</router-link>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link active" href="/valueProg">{{ $t('footer.links.valueProg') }}</a>
+          <!-- <a class="nav-link active" href="/valueProg">{{ $t('footer.links.valueProg') }}</a> -->
+          <router-link :to="`/${$i18n.locale}/valueProg`" class="nav-link active">{{ $t('footer.links.valueProg') }}</router-link>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link active" href="/contactUs">{{ $t('footer.links.contactUs') }}</a>
+          <!-- <a class="nav-link active" href="/contactUs">{{ $t('footer.links.contactUs') }}</a> -->
+          <router-link :to="`/${$i18n.locale}/contactUs`" class="nav-link active">{{ $t('footer.links.contactUs') }}</router-link>
         </li>
         <!-- <li class="nav-item mx-2">
           <select v-model="$i18n.locale">
@@ -55,6 +60,8 @@ export default {
 
     setLocale(locale){
       this.$i18n.locale = locale
+
+      console.log(this.$i18n.locale)
     }
   }
 
