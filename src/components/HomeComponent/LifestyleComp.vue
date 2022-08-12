@@ -33,7 +33,7 @@ export default {
 }
 
 .lifestyle_section .content_section{
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
