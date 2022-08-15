@@ -3,29 +3,61 @@
     <img src="../../assets/contactUsAssets/bg.png" alt="" style="max-width:100%">
     <div class="content_section p-5">
         <form action="" @submit.prevent="postEmail">
+        <div class="row px-0 mt-2">
+          <div class="col-2 col-lg-1 d-flex justify-content-center align-items-end"><i class="fa fa-user fa-2x" aria-hidden="true"></i> </div>
+          <div class="col-10 col-lg-11">
             <div class="field input-group has-validation">
                 <input v-model="postMail.fullName" type="text" name="fullname" id="fullname" placeholder="." >
                 <label for="fullname">{{ $t('contactUs.name') }}</label>
             </div>
-            <div v-if="validate.fullName == false" class="invalidText"> This field is required. Please input your name.</div>
-            
+          </div>
+          <div class="row px-0">
+            <div class="col-2 col-lg-1"></div>
+            <div class="col-10 col-lg-11"><div v-if="validate.fullName == false" class="invalidText"> This field is required. Please input your name.</div></div>
+          </div>
+        </div>
+        <div class="row px-0 mt-2">
+          <div class="col-2 col-lg-1 d-flex justify-content-center align-items-end"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> </div>
+          <div class="col-10 col-lg-11">
             <div class="field">
                 <input v-model="postMail.email" type="text" name="email" id="email" placeholder="." >
                 <label for="email">{{ $t('contactUs.email') }}</label>
             </div>
-            <div v-if="validate.email == false" class="invalidText"> This field is required. Please input a valid email.</div>
+          </div>
+          <div class="row px-0">
+            <div class="col-2 col-lg-1"></div>
+            <div class="col-10 col-lg-11"><div v-if="validate.email == false" class="invalidText"> This field is required. Please input a valid email.</div></div>
+          </div>
+        </div>
 
+        <div class="row px-0 mt-2">
+          <div class="col-2 col-lg-1 d-flex justify-content-center align-items-end"><i class="fa fa-phone fa-2x" aria-hidden="true"></i> </div>
+          <div class="col-10 col-lg-11">
             <div class="field">
                 <input v-model="postMail.contactNum" type="phoneNum" name="phoneNum" id="phoneNum" placeholder="." >
                 <label for="phoneNum">{{ $t('contactUs.contact') }}</label>
             </div>
-            <div v-if="validate.contactNum == false" class="invalidText"> This field is required. Please input a phone number.</div>
+          </div>
+          <div class="row px-0">
+            <div class="col-2 col-lg-1"></div>
+            <div class="col-10 col-lg-11"><div v-if="validate.contactNum == false" class="invalidText"> This field is required. Please input a phone number.</div></div>
+          </div>
+        </div>
 
+        <div class="row px-0 mt-2">
+          <div class="col-2 col-lg-1 d-flex justify-content-center align-items-end"><i class="fa fa-comments fa-2x" aria-hidden="true"></i> </div>
+          <div class="col-10 col-lg-11">
             <div class="field">
                 <textarea v-model="postMail.message" id="message" name="message" placeholder="asdasdasd asd " ></textarea>
                 <label name="message" for="message">{{ $t('contactUs.message') }}</label>
             </div>
-            <div v-if="validate.message == false" class="invalidText"> This field is required. Please enter text.</div>
+          </div>
+          <div class="row px-0">
+            <div class="col-2 col-lg-1"></div>
+            <div class="col-10 col-lg-11"><div v-if="validate.message == false" class="invalidText"> This field is required. Please enter text.</div></div>
+          </div>
+        </div>
+
             <div class="col-12 mt-4">
                 <button class="button-34" role="button" type="submit">{{ $t('contactUs.button') }}</button>
                 <!-- <router-link :to="`/${$i18n.locale}/contactUs`" class="button-34" >{{ $t('contactUs.button') }}</router-link> -->
@@ -141,6 +173,10 @@ export default {
   border: 0;
 }
 
+.fa{
+  color: var(--thirdcolor);
+}
+
 .contactUs_section .bg_section{
     background-color: var(--bgcolor);
 
@@ -218,7 +254,7 @@ input:focus, textarea:focus {
 }
 
 label {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.05em;
 }
 /**
