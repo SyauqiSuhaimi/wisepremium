@@ -11,10 +11,8 @@
                 <label for="fullname">{{ $t('contactUs.name') }}</label>
             </div>
           </div>
-          <div class="row px-0">
-            <div class="col-2 col-lg-1"></div>
+          <div class="col-2 col-lg-1"></div>
             <div class="col-10 col-lg-11"><div v-if="validate.fullName == false" class="invalidText"> This field is required. Please input your name.</div></div>
-          </div>
         </div>
         <div class="row px-0 mt-2">
           <div class="col-2 col-lg-1 d-flex justify-content-center align-items-end"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> </div>
@@ -24,24 +22,21 @@
                 <label for="email">{{ $t('contactUs.email') }}</label>
             </div>
           </div>
-          <div class="row px-0">
-            <div class="col-2 col-lg-1"></div>
+          <div class="col-2 col-lg-1"></div>
             <div class="col-10 col-lg-11"><div v-if="validate.email == false" class="invalidText"> This field is required. Please input a valid email.</div></div>
-          </div>
         </div>
 
         <div class="row px-0 mt-2">
           <div class="col-2 col-lg-1 d-flex justify-content-center align-items-end"><i class="fa fa-phone fa-2x" aria-hidden="true"></i> </div>
           <div class="col-10 col-lg-11">
             <div class="field">
-                <input v-model="postMail.contactNum" type="phoneNum" name="phoneNum" id="phoneNum" placeholder="." >
+                <!-- <input v-model="postMail.contactNum" type="text" name="phoneNum" id="phoneNum" placeholder="." > -->
+                <vue-tel-input v-model="postMail.contactNum" mode="international" type="text"  name="phoneNum" id="phoneNum" ></vue-tel-input>
                 <label for="phoneNum">{{ $t('contactUs.contact') }}</label>
             </div>
           </div>
-          <div class="row px-0">
-            <div class="col-2 col-lg-1"></div>
-            <div class="col-10 col-lg-11"><div v-if="validate.contactNum == false" class="invalidText"> This field is required. Please input a phone number.</div></div>
-          </div>
+          <div class="col-2 col-lg-1"></div>
+            <div class="col-10 col-lg-11"><div v-if="validate.contactNum == false" class="invalidText"> This field is required. Please input a valid phone number.</div></div>
         </div>
 
         <div class="row px-0 mt-2">
@@ -52,10 +47,8 @@
                 <label name="message" for="message">{{ $t('contactUs.message') }}</label>
             </div>
           </div>
-          <div class="row px-0">
-            <div class="col-2 col-lg-1"></div>
+          <div class="col-2 col-lg-1"></div>
             <div class="col-10 col-lg-11"><div v-if="validate.message == false" class="invalidText"> This field is required. Please enter text.</div></div>
-          </div>
         </div>
 
             <div class="col-12 mt-4">
@@ -68,7 +61,14 @@
 </template>
 
 <script>
+import { VueTelInput } from 'vue3-tel-input'
+import 'vue3-tel-input/dist/vue3-tel-input.css'
+
 export default {
+
+  components: {
+    VueTelInput,
+  },
 
     data() {
     return {
@@ -98,6 +98,7 @@ export default {
         const checkMsg = this.postMail.message.trim()
 
         const validEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+         const validPhone = /\d/g;
 
         if(checkName == '')
         {
@@ -117,7 +118,7 @@ export default {
           this.validate.email = true;
         }
 
-        if(checkNumber == '')
+        if(!checkNumber.match(validPhone))
         {
           this.validate.contactNum = false;
         }
@@ -208,6 +209,14 @@ textarea {
     min-height: 200px;
 }
 
+.vue-tel-input{
+  border: unset !important;
+}
+
+.vue-tel-input:focus-within{
+  box-shadow: unset !important;
+}
+
 textarea {
     border: 2px solid var(--thirdcolor) !important;
     background-color: transparent;
@@ -237,7 +246,7 @@ label, input, textarea {
   touch-action: manipulation;
 }
 
-input, textarea {
+input, textarea{
   font-size: 1.2em !important;
   border: 0;
   border-bottom: 1px solid #ccc;
@@ -248,7 +257,7 @@ input, textarea {
   cursor: text;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, .vue-tel-input:focus {
   outline: 0;
   border-bottom: 1px solid #666;
 }
@@ -263,7 +272,7 @@ label {
 * Also make sure the label is only on one row, at max 2/3rds of the
 * field—to make sure it scales properly and doesn't wrap.
 */
-input:placeholder-shown + label , textarea + label {
+input:placeholder-shown + label , textarea + label, .vue-tel-input + label {
   cursor: text;
   /* max-width: 66.66%; */
   white-space: nowrap;
@@ -276,6 +285,10 @@ input:placeholder-shown + label , textarea + label {
 
 textarea + label {
   transform: translate(0.5rem, 2rem);
+}
+
+.vue-tel-input + label{
+  transform: translate(0,0);
 }
 
 /**
@@ -298,7 +311,7 @@ input:focus::-webkit-input-placeholder {
 * there's something in the input at all.
 */
 input:not(:placeholder-shown) + label,
-input:focus + label, textarea:focus + label {
+input:focus + label, textarea:focus + label{
   transform: translate(0, 0) scale(1);
   cursor: pointer;
   text-align: start;
