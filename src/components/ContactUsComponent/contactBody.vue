@@ -6,7 +6,7 @@
         <div class="row px-0 mt-2">
           <div class="col-2 col-lg-1 d-flex justify-content-center align-items-end"><i class="fa fa-user fa-2x" aria-hidden="true"></i> </div>
           <div class="col-10 col-lg-11">
-            <div class="field input-group has-validation">
+            <div class="field">
                 <input v-model="postMail.fullName" type="text" name="fullname" id="fullname" placeholder="." >
                 <label for="fullname">{{ $t('contactUs.name') }}</label>
             </div>
