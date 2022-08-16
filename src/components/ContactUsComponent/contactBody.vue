@@ -31,7 +31,7 @@
           <div class="col-10 col-lg-11">
             <div class="field">
                 <!-- <input v-model="postMail.contactNum" type="text" name="phoneNum" id="phoneNum" placeholder="." > -->
-                <vue-tel-input v-model="postMail.contactNum" mode="international" type="text"  name="phoneNum" id="phoneNum" ></vue-tel-input>
+                <vue-tel-input v-model="postMail.contactNum" :value="phone" @input="onInput" mode="international" type="text"  name="phoneNum" id="phoneNum"></vue-tel-input>
                 <label for="phoneNum">{{ $t('contactUs.contact') }}</label>
             </div>
           </div>
@@ -90,6 +90,11 @@ export default {
     },
 
     methods: {
+      onInput(phone, phoneObject) {
+      if (phoneObject?.formatted) {
+        this.postMail.contactNum = phoneObject.formatted;
+      }
+    },
     postEmail()
     {
         const checkName = this.postMail.fullName.trim()
@@ -99,6 +104,8 @@ export default {
 
         const validEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
          const validPhone = /\d/g;
+
+         console.log(this.postMail.contactNum);
 
         if(checkName == '')
         {
