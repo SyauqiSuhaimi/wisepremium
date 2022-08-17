@@ -20,10 +20,10 @@
           <!-- <a class="nav-link active" href="/concierge">{{ $t('footer.links.concierge') }}</a> -->
           <router-link :to="`/${$i18n.locale}/concierge`" class="nav-link active">{{ $t('footer.links.concierge') }}</router-link>
         </li>
-        <li class="nav-item mx-2">
-          <!-- <a class="nav-link active" href="/valueProg">{{ $t('footer.links.valueProg') }}</a> -->
+        <!-- <li class="nav-item mx-2">
+          <a class="nav-link active" href="/valueProg">{{ $t('footer.links.valueProg') }}</a>
           <router-link :to="`/${$i18n.locale}/valueProg`" class="nav-link active">{{ $t('footer.links.valueProg') }}</router-link>
-        </li>
+        </li> -->
         <li class="nav-item mx-2">
           <!-- <a class="nav-link active" href="/contactUs">{{ $t('footer.links.contactUs') }}</a> -->
           <router-link :to="`/${$i18n.locale}/contactUs`" class="nav-link active">{{ $t('footer.links.contactUs') }}</router-link>

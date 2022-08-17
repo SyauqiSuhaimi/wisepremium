@@ -3,7 +3,7 @@
     <div>
         <h1 class="">{{ $t('chooseUs.title') }}</h1>
     </div>
-    <div class="row my-lg-5">
+    <div class="row my-lg-5 mx-0">
         <div class="col-lg-4">
             <div class="row">
                 <div class="col-2 p-0">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    <div class="row my-lg-5">
+    <div class="row my-lg-5 mx-0">
         <div class="col-lg-4 ">
             <div class="row ">
                 <div class="col-2 p-0">

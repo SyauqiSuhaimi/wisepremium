@@ -8,24 +8,24 @@
                 </div>
             </div>
             <div class="row link_section px-1">
-                <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
+                <div class="col-3 col-lg px-0 d-flex align-items-center justify-content-center">
                     <!-- <a href="/" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.memberships') }}</p></a> -->
                     <router-link :to="`/${$i18n.locale}/home`" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.memberships') }}</p></router-link>
                 </div>
-                <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
+                <div class="col-3 col-lg px-0 d-flex align-items-center justify-content-center">
                     <!-- <a href="/concierge" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.concierge') }}</p></a> -->
                     <router-link :to="`/${$i18n.locale}/concierge`" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.concierge') }}</p></router-link>
                 </div>
-                <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
-                    <!-- <a href="/valueProg" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.valueProg') }}</p></a> -->
+                <!-- <div class="col-4 col-lg px-0 d-flex align-items-center justify-content-center">
+                    <a href="/valueProg" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.valueProg') }}</p></a>
                     <router-link :to="`/${$i18n.locale}/valueProg`" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.valueProg') }}</p></router-link>
-                </div>
-                <div class="col-3 d-lg-none"></div>
-                <div class="col px-0 d-flex align-items-center justify-content-center">
+                </div> -->
+                <!-- <div class="col-3 d-lg-none"></div> -->
+                <div class="col-3 px-0 d-flex align-items-center justify-content-center">
                     <!-- <a href="/FAQ" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.faq') }}</p></a> -->
                     <router-link :to="`/${$i18n.locale}/FAQ`" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.faq') }}</p></router-link>
                 </div>
-                <div class="col px-0 d-flex align-items-center justify-content-center">
+                <div class="col-3 px-0 d-flex align-items-center justify-content-center">
                     <!-- <a href="/contactUs" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.contactUs') }}</p></a> -->
                     <router-link :to="`/${$i18n.locale}/contactUs`" @click="scrollToTop" class="footerLink"><p>{{ $t('footer.links.contactUs') }}</p></router-link>
                 </div>
